@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    if: contains(github.event.head_commit.message, 'deploy:')
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,6 +36,7 @@ jobs:
  
   deploy:
     needs: build
+    if: contains(github.event.head_commit.message, 'deploy:')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
