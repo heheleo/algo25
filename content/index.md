@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Algorithmics 25
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+hello world
+docs: [documentation](https://quartz.jzhao.xyz)
