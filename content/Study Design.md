@@ -4,9 +4,9 @@ Key knowledge
 - the motivation for using ADTs
 - signature specifications of ADTs using operator names, argument types and result types
 - specification and uses of the following ADTs:
-- set, list, array, dictionary (associative array)
-- stack, queue, priority queue
-- graphs, including undirected and directed graphs and unweighted and weighted graphs
+	- set, list, array, dictionary (associative array)
+	- stack, queue, priority queue
+	- graphs, including undirected and directed graphs and unweighted and weighted graphs
 - features of graphs, including paths, weighted path lengths, cycles and subgraphs
 - categories of graphs, including complete graphs, connected graphs, directed acyclic graphs and trees, and their properties
 - modularisation and abstraction of information representation with ADTs
@@ -76,8 +76,7 @@ T(n)=\begin{cases}
 O(n^c) & a < b^c \\
 O(n^c\log(n)) & a = b^c \\
 O(n^{\log_{b}(a)}) & a > b^c
-\end{cases}
-$$
+\end{cases}$$
 - examples and common features of algorithms that have time complexities of $O(1), O(\log n), O(n), O(n\log n), O(n^{2}), O(n^3), O(2^n)$, and $O(n!)$.
 - the concept of the P, NP, NP-Hard and NP-Complete time complexity classes for problems
 - consequences of combinatorial explosions and indicators for them
