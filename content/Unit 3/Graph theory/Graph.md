@@ -1,0 +1,1 @@
+An [[ADT]] which represents information through [[Node|nodes]] and [[Edge|edges]].
