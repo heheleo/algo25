@@ -11,5 +11,5 @@ Basic ADTs include:
 
 Advanced ADTs include:
 - networks
-- [[Graph Notation | graphs]]
+- [[Notation| graphs]]
 - trees
