@@ -13,4 +13,5 @@ Primary references:
 # Table of Contents
 ## Unit 3
 - [[Graph]]
+- [[Notation|Graph Theory Notation]]
 - [[ADT]]

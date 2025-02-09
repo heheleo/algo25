@@ -1,4 +1,4 @@
-A complete graph is a [[Graph Notation| graph]] where any one node has a connection to all other nodes.
+A complete graph is a [[Notation| graph]] where any one node has a connection to all other nodes.
 
 This results in the degree of any one node being equal to the total amount of nodes minus one.
 
