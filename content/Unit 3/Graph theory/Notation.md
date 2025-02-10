@@ -65,8 +65,4 @@ See [[Directed edge]]
 |        |  C  |   0    |  0  |  0  |  1  |
 |        |  D  |   0    |  1  |  0  |  0  |
 
-TODO: make a graph with below connections
-B->A
-D->B
-B->C
-C->D
+![[directedGraph1.png]]
