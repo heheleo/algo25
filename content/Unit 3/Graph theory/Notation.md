@@ -1,7 +1,6 @@
 ---
 aliases:
-  - graph
-  - graphs
+  - Graph Notation
 ---
 ## [[Graph]]
 We define a simple, unlabelled graph G as a **pair** of two sets:
@@ -37,3 +36,21 @@ The degree of a node with 1-based index $i$ in the set of all nodes $N$ is denot
 $$
 Deg( N[i] ) = \text{The degree of the i-th node in the set of all nodes }
 $$
+
+
+## Adjacency matrix
+The edges of graphs may be represented through an adjacency matrix.
+
+[[Simple Graph|Simple graphs]] and [[Directed graph|Directed graphs]] make use of simple binary values of either 1 or 0 to indicate presence of a graph.
+
+In a simple graph, the information is mirrored across the diagonal, because in a undirected graph, A-B connection is the same as B-A connection.
+Adjacency of simple graph:
+
+|     |  A  |  B  |  C  |  D  |
+| :-: | :-: | :-: | :-: | :-: |
+|  A  |  0  |  1  |  0  |  0  |
+|  B  |  1  |  0  |  1  |  1  |
+|  C  |  0  |  1  |  0  |  1  |
+|  D  |  0  |  1  |  1  |  0  |
+
+However in a directed graph, this is not the case, because direction matters.
