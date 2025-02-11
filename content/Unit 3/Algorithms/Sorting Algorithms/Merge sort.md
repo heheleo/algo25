@@ -37,7 +37,7 @@ def merge(left: list, right: list):
     return result
 ```
 
-alternatively
+Alternatively:
 ```python
 
 # MODE : "asc" or "desc"
