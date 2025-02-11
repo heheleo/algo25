@@ -6,6 +6,7 @@ Merge sort operates by recursively splitting the list into half until it is divi
 
 
 Python Implementation:
+
 ```python
 def mergesort(list):
     if len(list) <= 1:
@@ -34,4 +35,60 @@ def merge(left: list, right: list):
             result.append(right[0])
             right.pop(0)
     return result
+```
+
+alternatively
+```python
+
+# MODE : "asc" or "desc"
+
+def sort(input:list, mode:str) -> list:
+    lengh = len(input)
+    if lengh <= 1:
+        return input
+    middle_index = lengh//2
+    leftList=input[:middle_index]
+    rightList=input[middle_index:]
+    
+    sortedLeftList = sort(leftList,mode)
+    sortedRightList = sort(rightList,mode)
+
+    lLengh = len(sortedLeftList)
+    rLengh=len(sortedRightList)
+
+    result=[]
+    li,ri=0,0
+    for i in range(lengh):
+        if li >= lLengh:
+            result.append(sortedRightList[ri])
+            ri+=1
+            continue
+
+        if ri >= rLengh:
+            result.append(sortedLeftList[li])
+            li+=1
+            continue
+            
+        priority=""
+        if mode =="asc":
+            if sortedLeftList[li] > sortedRightList[ri]:
+                priority = "r"
+            else:
+                priority="l"
+        elif mode =="desc":
+            if sortedLeftList[li] < sortedRightList[ri]:
+                priority = "r"
+            else:
+                priority="l"
+
+        if priority=="r":
+            result.append(sortedRightList[ri])
+            ri+=1
+            continue
+        else:
+            result.append(sortedLeftList[li])
+            li+=1
+            continue
+    return result
+
 ```
