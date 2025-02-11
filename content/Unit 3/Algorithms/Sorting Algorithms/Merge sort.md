@@ -41,7 +41,6 @@ Alternatively:
 ```python
 
 # MODE : "asc" or "desc"
-
 def sort(input:list, mode:str) -> list:
     lengh = len(input)
     if lengh <= 1:
