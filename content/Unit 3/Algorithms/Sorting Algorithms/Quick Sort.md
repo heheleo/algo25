@@ -76,18 +76,29 @@ def quicksort(listToSort: list) -> list:
         item = listToSort[i]
         pivotItem = listToSort[pivot]
         
-        # if item needs to be to left of pivot
+        # checks if the item is on the right side of pivot when it should be left
         if item < pivotItem and i > pivot:
 	        # removes item, inserts it before pivot point
+	        
+	        # as item is to right of pivot, its removal wont affect position of 
+	        # the pivot
+		    #inserts item before the pivot
             listToSort.insert(pivot, listToSort.pop(i))
-            # updates the index of pivot as it got shifed
+            
+            # updates the index of pivot as item got inserted, moving pivot
             pivot += 1
 
-		#if item needs to be to right of pivot
+		# checks if the item is on the left side of pivot when it should be right
         elif item > pivotItem and i < pivot:
-	        # 
+	        #removes the item from list
+	        #because item was to left of pivot, when it is removed
+	        #pivot will move left by one
+	        #when its re added on old index of pivot, it will now be right of pivot
             listToSort.insert(pivot, listToSort.pop(i))
+            #adjusts pivot to reflect new index of pivot
             pivot -= 1
+            #moves i to the left by one to make sure no number was missed
+            #this is bc all numbers to right of the old item position was moved 
             i -= 1
         i += 1
     return quicksort(listToSort[:pivot]) + [pivotItem] + quicksort(listToSort[pivot+1:])
