@@ -1,4 +1,4 @@
-The Master Theorem provides a solution to the runtime of divide-and-conquer algorithms of the form
+The Master Theorem provides a solution to the runtime of recurrence relations of the form
 $$
 T(n)= \begin{cases}
 aT(\frac{n}{b})+kn^c &\text{if }\space n>1 \\
