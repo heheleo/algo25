@@ -1,7 +1,7 @@
 ```python
 import networkx as nx
 
-def bellmanford(graph: nx.DiGraph, start) -> dict:
+def bellman_ford(graph: nx.DiGraph, start) -> dict:
     node_distances = {node: float('inf') for node in graph.nodes}
     node_distances[start] = 0
     for _ in range(len(graph.edges)-1):
