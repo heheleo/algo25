@@ -64,6 +64,7 @@ def quickSort(input:list):
     # initialises the recursion
     quickSortRecursive(input,0,len(input))
 ```
+
 Alternatively
 ```python
 def quicksort(listToSort: list) -> list:
