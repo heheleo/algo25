@@ -18,7 +18,7 @@ Best-case performance: $O(n log(n))$
 [Source](https://www.geeksforgeeks.org/quick-sort-algorithm/)
 
 
-Algorithms
+Algorithm:
 ```python
 def swap(list:list, i:int, j:int):
     list[i],list[j]=list[j],list[i]
@@ -29,11 +29,15 @@ def partition(input:list,iLow:int,iHigh:int) -> int:
 
     # swaps the pivot number to the end of the list segment
     swap(input,oldPivotIndex,iHigh-1)
-
+  - 
+	#Note: i here keeps track of the item 1 before where pivot should now go
+	
     i = iLow-1
     for j in range(iLow,iHigh-1):
         # checks if swapping is needed
         if input[j] < pivotValue:
+        # if swapping is needed, 
+        # it will swap the current j item with the item one after i
             i+=1
             swap(input,j,i)
     
