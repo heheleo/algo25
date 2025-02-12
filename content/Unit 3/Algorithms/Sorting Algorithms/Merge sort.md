@@ -1,3 +1,4 @@
+Recursive, divide & conquer.
 Worst-case performance: $O(nlog(n))$ 
 
 ![[Merge-sort-example-300px.gif]]
