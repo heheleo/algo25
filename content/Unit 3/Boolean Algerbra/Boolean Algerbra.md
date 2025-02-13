@@ -22,5 +22,7 @@ The three fundamental operations are:
 - AND
 - OR
 
-Similar to mathematical operations, boolean algebra also has a "order of operations".
+Similar to mathematical operations, Boolean algebra also has a "order of operations".
 For Boolean algebra this is called the **order of precedence**.
+The order is:  **NOT** -> **AND** -> **OR**
+Parenthesis may be used to override these orders.
