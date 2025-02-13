@@ -14,5 +14,4 @@ Common but not mandatory conventions include:
 - diffrent operators for assignment and comparison
 	- common pairs include:
 		- ''=" for assignment "=\=" for comparison
-		- "<-" or ":=" for assignment "="
- for comparison
+		- "<-" or ":=" for assignment "="  for comparison
