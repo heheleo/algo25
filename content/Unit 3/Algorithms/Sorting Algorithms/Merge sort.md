@@ -43,28 +43,28 @@ Alternatively:
 
 # MODE : "asc" or "desc"
 def sort(input:list, mode:str) -> list:
-    lengh = len(input)
-    if lengh <= 1:
+    length = len(input)
+    if length <= 1:
         return input
-    middle_index = lengh//2
+    middle_index = length//2
     leftList=input[:middle_index]
     rightList=input[middle_index:]
     
     sortedLeftList = sort(leftList,mode)
     sortedRightList = sort(rightList,mode)
 
-    lLengh = len(sortedLeftList)
-    rLengh=len(sortedRightList)
+    llength = len(sortedLeftList)
+    rlength=len(sortedRightList)
 
     result=[]
     li,ri=0,0
-    for i in range(lengh):
-        if li >= lLengh:
+    for i in range(length):
+        if li >= llength:
             result.append(sortedRightList[ri])
             ri+=1
             continue
 
-        if ri >= rLengh:
+        if ri >= rlength:
             result.append(sortedLeftList[li])
             li+=1
             continue
