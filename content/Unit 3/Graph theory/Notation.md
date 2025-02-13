@@ -57,12 +57,13 @@ However in a directed graph, this is not the case, because direction matters.
 By convention, the rows define the source node, and the columns define the target node.
 See [[Directed edge]]
 
-|        |     | Target |     |     |     |
-| ------ | :-: | :----: | :-: | :-: | :-: |
-|        |     |   A    |  B  |  C  |  D  |
-| Source |  A  |   0    |  0  |  0  |  0  |
-|        |  B  |   1    |  0  |  1  |  0  |
-|        |  C  |   0    |  0  |  0  |  1  |
-|        |  D  |   0    |  1  |  0  |  0  |
+| Adjacency Matrix |     |             |     |     |     |
+| ---------------- | :-: | :---------: | :-: | :-: | :-: |
+|                  |     | Target node |     |     |     |
+|                  |     |      A      |  B  |  C  |  D  |
+| Source           |  A  |      0      |  0  |  0  |  0  |
+| node             |  B  |      1      |  0  |  1  |  0  |
+|                  |  C  |      0      |  0  |  0  |  1  |
+|                  |  D  |      0      |  1  |  0  |  0  |
 
 ![[directedGraph1.png]]

@@ -5,5 +5,5 @@ As other attributes and information are added onto a simple graph, it can turn i
 - [[Directed graph | Directed graph]] when edges are given a direction
 - [[Weighted graph| Weighted graph]] as edges are given a weight
 
-If certain conditions are fufilled, it may (simultaniously) qualify as one of the following.
-- Complete graph
+If certain conditions are fulfilled, it may (simultaneously) qualify as one of the following.
+- [[Complete graph]]
