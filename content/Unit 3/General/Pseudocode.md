@@ -10,5 +10,9 @@ Makes use of phrases similar to real code
 For algorithms there is not a strict set of syntax for pseudocode.
 Common but not mandatory conventions include:
 - indenting blocks
-- '=' or '<-' as assignment operators
 - using "End (BlockType)" such as 'End For' to end blocks
+- diffrent operators for assignment and comparison
+	- common pairs include:
+		- ''=" for assignment "=\=" for comparison
+		- "<-" or ":=" for assignment "="
+ for comparison
