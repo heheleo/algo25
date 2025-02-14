@@ -6,7 +6,7 @@ Deg(N[k]) = |N| - 1 , \forall k \in \mathbf N
 $$
 ## Number of edges
 The number of edges within a complete graph is given by $$
-n(E)=\frac{n(n-1)}2
+|E|=\frac{|N|(|N|-1)}2
 $$
 ## Example
 ![[Pasted image 20250214114944.png|500]]

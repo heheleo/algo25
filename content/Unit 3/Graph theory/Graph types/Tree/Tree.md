@@ -6,7 +6,7 @@ An [[Undirected graph|undirected graph]] in which any two distinct [[Node|nodes]
 ## Number of edges
 The number of edges will always be one less than the number of [[Node|nodes]].
 $$
-n(E)=n(N)-1
+|E|=|N|-1
 $$
 >[!proof]
 >Proof by mathematical induction. Let $P(n)$ be the proposition such that a tree with $n$ nodes will satisfy $e=n-1$, where $e$ denotes the number of edges, and $n$ denotes the number of nodes.
