@@ -17,6 +17,16 @@ $$
 >In a tree with $k+1$ nodes, the number of edges must be equal to the number of edges connecting $k$ nodes plus the number of edges connecting the $(k+1)$th node.
 >As the number of edges required to connect two nodes must be 1, the number of edges in a tree with $k+1$ nodes is equal to the number of edges in a tree with $k$ nodes plus 1.
 >That is, 
->$$\begin{split} e &=\text{n(edges of tree with k nodes)}+1 \\ &=(k-1)+1 \\&=k \end{split}$$
+>
+>$$
+>\begin{split} 
+> e &= \text{n(edges of tree with k nodes)}+1 \\ 
+> &=(k-1)+1 \\ 
+> &= k 
+> \end{split}
+> $$
+>
 >Substituting $e=k$ into $e=n-1$ gets $k=(k+1)-1$ which is true. Hence, we have shown that $P(k+1)$ is true.
 >By the principle of mathematical induction, a tree with $e$ edges and $n$ nodes must satisfy the relation $e=n-1$.
+
+
