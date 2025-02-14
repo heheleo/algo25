@@ -23,6 +23,7 @@ Key knowledge
 - the structure of decision trees and state graphs
 	- [[Decision tree]]
 	- [[State diagram]]
+
 Key skills
 - explain the role of ADTs for data modelling
 - read and write ADT signature specifications
