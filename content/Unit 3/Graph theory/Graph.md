@@ -7,6 +7,7 @@ An [[ADT]] which represents information through [[Node|nodes]] and [[Edge|edges]
 [[Notation#Graph]]
 ## Representations
 - [[Adjacency matrix]]
+- [[Incidence matrix]]
 - A diagram with [[Node|nodes]] interconnected using [[Edge|edges]].
 ## Types
 - [[Tree]]
