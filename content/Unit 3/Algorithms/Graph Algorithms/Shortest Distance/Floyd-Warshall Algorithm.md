@@ -1,3 +1,6 @@
+for all node pairs
+gives the shortest distance path
+
 #TODO #A
 Python Implementation:
 ```python
