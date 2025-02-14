@@ -1,0 +1,1 @@
+A tree-like model that represents decisions and their possible consequences, such as chance event outcomes, resource costs, or representing algorithms that only contain conditional control statements.

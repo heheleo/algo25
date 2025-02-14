@@ -1,0 +1,1 @@
+A [[Path|path]] (no repeated edges and nodes) that starts and ends at the same [[Node|node]]. The start and the end [[Node|node]] are exceptions to the "repeated nodes" rule.
