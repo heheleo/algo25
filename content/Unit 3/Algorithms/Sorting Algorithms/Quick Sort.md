@@ -18,7 +18,7 @@ Best-case performance: $O(n log(n))$
 [Source](https://www.geeksforgeeks.org/quick-sort-algorithm/)
 
 
-Algorithm:
+Python Implementation:
 ```python
 def swap(list:list, i:int, j:int):
     list[i],list[j]=list[j],list[i]
@@ -65,7 +65,7 @@ def quickSort(input:list):
     quickSortRecursive(input,0,len(input))
 ```
 
-Alternatively
+Alternatively:
 ```python
 def quicksort(listToSort: list) -> list:
     if len(listToSort) <= 1:
