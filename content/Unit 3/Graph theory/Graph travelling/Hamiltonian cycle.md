@@ -1,0 +1,1 @@
+A [[Hamiltonian path]] (every [[Node|node]]) that starts and ends at the same [[Node|node]].
