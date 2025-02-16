@@ -9,9 +9,21 @@ Key knowledge
 	- stack, queue, priority queue
 	- graphs, including undirected and directed graphs and unweighted and weighted graphs
 - features of graphs, including paths, weighted path lengths, cycles and subgraphs
+	- [[Graph]]
+	- [[Path]]
+	- [[Weighted graph#Weighted path length]]
+	- [[Subgraph]]
 - categories of graphs, including complete graphs, connected graphs, directed acyclic graphs and trees, and their properties
+	- [[Graph#Types]]
+		- [[Complete graph]]
+		- [[Connected graph]]
+		- [[Directed acrylic graph]]
+		- [[Tree]]
 - modularisation and abstraction of information representation with ADTs
 - the structure of decision trees and state graphs
+	- [[Decision tree]]
+	- [[State diagram]]
+
 Key skills
 - explain the role of ADTs for data modelling
 - read and write ADT signature specifications

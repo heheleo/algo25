@@ -1,0 +1,1 @@
+A [[Path|path]] that visits every [[Node|node]] of a [[Graph|graph]].

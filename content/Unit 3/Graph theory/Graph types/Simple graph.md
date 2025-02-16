@@ -1,9 +1,7 @@
-A simple graph is a graph with simply [[Node|nodes]] and [[Edge|edges]].
+A [[Graph|graph]] with [[Node|nodes]] and [[Edge|edges]], where there are no multiple edges between the same pair of vertices.
 
-As other attributes and information are added onto a simple graph, it can turn into the following.
+As other attributes and information are added onto a simple graph, it can transform into:
+- [[Directed graph |directed graph]] when edges are given a direction
+- [[Weighted graph|weighted graph]] as edges are given a weight
 
-- [[Directed graph | Directed graph]] when edges are given a direction
-- [[Weighted graph| Weighted graph]] as edges are given a weight
-
-If certain conditions are fufilled, it may (simultaniously) qualify as one of the following.
-- Complete graph
+It can also be a [[Complete graph|complete graph]] given that requirements are fulfilled.

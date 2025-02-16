@@ -1,6 +1,6 @@
-A graph  may be directed or undirected.
+A graph may be directed or undirected.
 
-The [[Edge| edges]] of a directed graph have directions.
+The [[Edge|edges]] of a directed graph have directions.
 A weighted graph is comprised of [[Directed edge | directed edges]].
 
 ![[directedGraph1.png]]

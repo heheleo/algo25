@@ -1,0 +1,1 @@
+A [[Trail|trail]] (no repeated edges) that starts and ends at the same [[Node|node]].
