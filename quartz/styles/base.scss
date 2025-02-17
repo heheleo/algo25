@@ -497,15 +497,21 @@ p {
 th {
   text-align: left;
   padding: 0.4rem 0.7rem;
-  border-bottom: 2px solid var(--gray);
+  border-bottom: 2px solid var(--secondary);
 }
 
 td {
   padding: 0.2rem 0.7rem;
+  border-right: 1px solid var(--secondary);
+
+  &:last-child {
+    border-right: none;
+  }
 }
 
 tr {
-  border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--secondary);
+
   &:last-child {
     border-bottom: none;
   }
