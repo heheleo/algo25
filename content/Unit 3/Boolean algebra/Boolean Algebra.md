@@ -56,7 +56,8 @@ Eg for the negation of $A$, it can be notated as follows
 | AND, **conjunction**      | $$A∧B$$                      | $$A \cdot B$$            | $1\cdot1=1$<br>$1\cdot0=0$<br>$0\cdot0=0$ |
 | xor                       | $$A\bar{v}B \text{ or }A⊕B$$ | $$\bar{A} B + A\bar{B}$$ |                                           |
 
-### Properties
+
+### AND Properties
 
 | Name             | AND form                                   | Examples                | Explanation                                                                                                                                               |
 | ---------------- | ------------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,6 +70,12 @@ Eg for the negation of $A$, it can be notated as follows
 | Distributive law | $A +( B \cdot  C) = (A + B) \cdot (A + C)$ | $1+(1*0) = (1*1)+(1*0)$ |                                                                                                                                                           |
 | Absorption law   | $A\cdot (A+B) = A$                         | $1*(1+0)=1$             | $A*(A+B)$<br>$=A*A+A*B$<br>= A or (A and B)<br>If A is true, statement is true by or disjunction, if a is false both  sides of disjunction  will be false |
 | De Morgan's law  | $\overline{(A \cdot B)} = \bar A + \bar B$ | $(1*0)'=1'+0'=1$        | negation of conjugation is disjunction<br>(negation of and is or)                                                                                         |
+
+
+
+
+
+### OR Properties
 
 | Name             | OR form                                | Examples             | Explanation                                                                              |
 | ---------------- | -------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------- |
