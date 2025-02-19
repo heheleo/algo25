@@ -14,7 +14,7 @@ Best-case performance: $O(n log(n))$
 [Source](https://commons.wikimedia.org/wiki/File:Quicksort-example.gif)
 
 
-![[Pasted image 20250212093130.png]]
+![[pivotsort_diagram.png]]
 [Source](https://www.geeksforgeeks.org/quick-sort-algorithm/)
 
 

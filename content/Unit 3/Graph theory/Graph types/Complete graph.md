@@ -9,4 +9,4 @@ The number of edges within a complete graph is given by $$
 |E|=\frac{|N|(|N|-1)}2
 $$
 ## Example
-![[Pasted image 20250214114944.png|500]]
+![[complete_graph_examples.png|500]]
