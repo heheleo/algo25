@@ -1,7 +1,7 @@
 #TODO
 An ADT (Abstract Data Type) is a data type (e.g. a set) that contains a definition, without containing an implementation. All operations on an ADT have a signature, denoted function: inputs → output. An example of a signature is append: set × element → set.
 
-Basic ADTs include:
+Basic ADTs  include:
 - set
 - list
 - array
@@ -23,3 +23,7 @@ Advanced ADTs include:
 - networks
 - [[Notation|graphs]]
 - trees
+
+
+A variable holds one value for an algorithm
+variables are similar to containers that hold data information
