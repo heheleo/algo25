@@ -1,7 +1,7 @@
-for all node pairs
-gives the shortest distance path
+Time complexity: $\Theta(n^3)$
+The Floyd-Warshall Algorithm is an algorithm that finds the short paths between all pairs of nodes in a directed weighted graph. The Floyd-Warshall Algorithm operates by repeatedly lowering the distance between two nodes $u,v$ by checking if the shortest path between $u$ and $v$ involving an intermediate node $n$ is shorter (i.e distance between $u$ and $n$ plus distance between $n$ and $v$ is less than the distance between $u$ and $v$).
 
-#TODO #A
+
 Python Implementation:
 ```python
 import networkx as nx

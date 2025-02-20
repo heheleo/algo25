@@ -1,6 +1,8 @@
+Time Complexity: $O(|V||E|)$
 The Bellman-Ford algorithm is an algorithm that finds the shortest paths from a node to all other nodes in a weighted directed graph. The Bellman-Ford algorithm operates by repeatedly lowering the distances for each node if the distance of the edge plus its starting node is lower than the current distance, iterating over all edges in the graph $|V|-1$ times.
 
 The edge-updating section repeats $|V|-1$ times because the longest possible path without negative cycles in a graph is $|V|-1$ edges long, and so all possible paths can be accounted for in the algorithm. The negative cycle section works by checking if any distances can be lowered, as if they can be, this indicates that there is a path longer than $|V|-1$ edges, and so there must be a negative cycle.
+
 
 Python Implementation:
 ```python
