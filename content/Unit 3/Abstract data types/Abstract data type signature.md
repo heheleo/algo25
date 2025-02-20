@@ -7,6 +7,7 @@ $\times$: formally the **cross product** of element types
 $\to$: the resulting element type
 
 For example, $\text{add}:\text{set}\times\text{element}\to\text{set}$ means that within a set, there exists an "add" operator that accepts an "element", and after the operation is done it returns a set. It is like knowing the parameters and the return type of a function.
+
 ## Format
 Usually, abstract data types includes an operation for:
 - checking if it is empty
@@ -20,3 +21,12 @@ operations:
   empty: ...
   ...
 ```
+
+### Common operations
+- create element
+- add element
+- delete element
+- update element
+- access size
+- access element 
+- other ADT specific operations
