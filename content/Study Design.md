@@ -24,6 +24,7 @@ Key knowledge
 	- [[Decision tree]]
 	- [[State diagram]]
 
+
 Key skills
 - explain the role of ADTs for data modelling
 - read and write ADT signature specifications
@@ -35,17 +36,29 @@ Key skills
 Key knowledge
 - basic structure of algorithms
 - pseudocode concepts, including variables and assignment, sequence, iteration, conditionals and functions
+	- [[Pseudocode]]
 - programming language constructs that directly correspond to pseudocode concepts
 - conditional expressions using the logical operations of AND, OR, NOT
+	- [[Boolean Algebra]]
 - recursion and iteration and their uses in algorithm design
 - modular design of algorithms and ADTs
 - characteristics and suitability of the brute-force search and greedy algorithm design patterns
 - graph traversal techniques, including breadth-first search and depth-first search
+	- [[Walk]]
+	- [[Trail]]
+	- [[Path]]
+	- [[Hamiltonian path]]
+	- [[Hamiltonian cycle]]
+	- [[Eulerian trail]]
+	- [[Eulerian circuit]]
+	- [[Cycle]]
+	- [[Circuit]]
+	- 
 - specification, correctness and limitations of the following graph algorithms:
-- Prim’s algorithm for computing the minimal spanning tree of a graph
-- Dijkstra’s algorithm and the Bellman-Ford algorithm for the single-source shortest path problem
-- the Floyd-Warshall algorithm for the all-pairs shortest path problem and its application to the transitive closure problem
-- the PageRank algorithm for estimating the importance of a node based on its links
+- [[Prim's Algorithm]] for computing the minimal spanning tree of a graph
+- [[Dijkstra's Algorithm]] and the [[Bellman-Ford Algorithm]] for the single-source shortest path problem
+- the [[Floyd-Warshall Algorithm]] algorithm for the all-pairs shortest path problem and its application to the transitive closure problem
+- the [[PageRank]] algorithm for estimating the importance of a node based on its links
 - induction and contradiction as methods for demonstrating the correctness of simple iterative and recursive algorithms
 Key skills
 - interpret pseudocode and execute it manually on given input
@@ -79,7 +92,7 @@ Key knowledge
 - techniques for determining the time complexity of iterative algorithms
 - the definition of Big-O notation and its application to the worst-case time complexity analysis of algorithms
 - recurrence relations as a method of describing the time complexity of recursive algorithms
-- the Master Theorem for solving recurrence relations of the form: $$
+- the [[Master Theorem]] for solving recurrence relations of the form: $$
 T(n)=\begin{cases}
 a \cdot T\left( \frac{n}{b} \right) + kn^c & n > 1 \\
 d  &  n=1
@@ -109,7 +122,7 @@ $$, where $a_{i} \in \mathbb{N}$
 ## AOS2: Advanced algorithm design
 Key knowledge
 - the binary search algorithm
-- divide and conquer algorithms that have linear time divide and merge steps, including mergesort and quicksort
+- divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick Sort]]
 - dynamic programming algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
 - the application of heuristics and randomised search to overcoming the soft limits of computation, including the limitations of these methods
