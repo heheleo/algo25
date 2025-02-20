@@ -1,7 +1,9 @@
 Worst-case performance: $\Theta(|E|+|V|log(|V|))$
 ![[Dijkstra_Animation.gif]]
 
-Dijkstra's Algorithm is a greedy algorithm that finds the shortest path between nodes in a weighted graph. Dijkstra's algorithm returns the distances of the shortest paths from a node to all other nodes in a graph, and can be used to find the shortest path between two nodes. Dijkstra's Algorithm operates by keeping a list of all unvisited nodes and the distances from each node to the initial node, and then repeatedly visiting the unvisited node with the lowest distance, and updating the distance of all of its adjacent nodes.
+Dijkstra's Algorithm is a greedy algorithm that finds the shortest path between nodes in a weighted graph. 
+Dijkstra's algorithm returns the distances of the shortest paths from a node to all other nodes in a graph, and can be used to find the shortest path between two nodes. 
+Dijkstra's Algorithm operates by keeping a list of all unvisited nodes and the distances from each node to the initial node, and then repeatedly visiting the unvisited node with the lowest distance, and updating the distance of all of its adjacent nodes.
 
 
 Python Implementation:
