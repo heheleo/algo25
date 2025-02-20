@@ -13,7 +13,7 @@ An [[Abstract data type|ADT]] which represents information through [[Node|nodes]
 ## Signature
 ```
 name: Graph
-import: node, edge, list, int, bool
+import: node, edge, list, bool
 operators:
   newGraph: -> Graph;
   nodes: Graph -> list;
