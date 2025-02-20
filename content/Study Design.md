@@ -3,11 +3,16 @@
 ## AOS1 Data modelling with abstract data types
 Key knowledge
 - the motivation for using ADTs
+	- [[Abstract data type#Motivation]]
 - signature specifications of ADTs using operator names, argument types and result types
+	- [[Abstract data type signature]]
 - specification and uses of the following ADTs:
 	- set, list, array, dictionary (associative array)
+		- [[Unit 3/Abstract data types/Types/Set|Set]], [[List]], [[Array]], [[Dictionary]]
 	- stack, queue, priority queue
-	- graphs, including undirected and directed graphs and unweighted and weighted graphs
+		- [[Stack]], [[Queue]], [[Priority queue]]
+	- graphs, including undirected and directed graphs and unweighted and weighted graphs]]
+		- [[Graph]]
 - features of graphs, including paths, weighted path lengths, cycles and subgraphs
 	- [[Graph]]
 	- [[Path]]
@@ -23,8 +28,6 @@ Key knowledge
 - the structure of decision trees and state graphs
 	- [[Decision tree]]
 	- [[State diagram]]
-
-
 Key skills
 - explain the role of ADTs for data modelling
 - read and write ADT signature specifications
@@ -44,21 +47,11 @@ Key knowledge
 - modular design of algorithms and ADTs
 - characteristics and suitability of the brute-force search and greedy algorithm design patterns
 - graph traversal techniques, including breadth-first search and depth-first search
-	- [[Walk]]
-	- [[Trail]]
-	- [[Path]]
-	- [[Hamiltonian path]]
-	- [[Hamiltonian cycle]]
-	- [[Eulerian trail]]
-	- [[Eulerian circuit]]
-	- [[Cycle]]
-	- [[Circuit]]
-	- 
 - specification, correctness and limitations of the following graph algorithms:
-- [[Prim's Algorithm]] for computing the minimal spanning tree of a graph
-- [[Dijkstra's Algorithm]] and the [[Bellman-Ford Algorithm]] for the single-source shortest path problem
-- the [[Floyd-Warshall Algorithm]] algorithm for the all-pairs shortest path problem and its application to the transitive closure problem
-- the [[PageRank]] algorithm for estimating the importance of a node based on its links
+	- [[Prim's Algorithm]] for computing the minimal spanning tree of a graph
+	- [[Dijkstra's Algorithm]] and the [[Bellman-Ford Algorithm]] for the single-source shortest path problem
+	- the [[Floyd-Warshall Algorithm]] algorithm for the all-pairs shortest path problem and its application to the transitive closure problem
+	- the [[PageRank]] algorithm for estimating the importance of a node based on its links
 - induction and contradiction as methods for demonstrating the correctness of simple iterative and recursive algorithms
 Key skills
 - interpret pseudocode and execute it manually on given input

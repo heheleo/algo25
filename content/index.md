@@ -9,9 +9,8 @@ Primary references:
 - Gouros, G. (2022). _Algorithmics (HESS) Student Guide_.
 - Meyer, B. and Bird, S. (2018). _VCE Algorithmics (2017 Edition)_.
 - Taylor. (2017). [*Algorithmics 21*](https://algo-21.vercel.app).
-
 # Table of Contents
 ## Unit 3
 - [[Graph]]
 - [[Notation|Graph Theory Notation]]
-- [[ADT]]
+- [[Abstract data type]]

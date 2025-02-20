@@ -55,6 +55,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.NotInSd(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
@@ -70,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
-      Plugin.Description(),
+      Plugin.Description()
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
