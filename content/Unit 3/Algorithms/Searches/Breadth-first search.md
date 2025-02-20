@@ -18,7 +18,6 @@ def breadth_first(tree: nx.DiGraph, search_value, value_attr: str = "value"):
     explored = [next]
     while nodes.qsize() != 0:
         next = nodes.get()
-        print(next)
         if tree.nodes.data()[next][value_attr] == search_value:
             return next
         for node in tree.successors(next):

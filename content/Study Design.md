@@ -90,7 +90,7 @@ Key skills
 Key knowledge
 - the concept of classifying algorithms based on their time and space complexity with respect to their input
 - techniques for determining the time complexity of iterative algorithms
-- the definition of Big-O notation and its application to the worst-case time complexity analysis of algorithms
+- the definition of [[Big-O notation]] and its application to the worst-case time complexity analysis of algorithms
 - recurrence relations as a method of describing the time complexity of recursive algorithms
 - the [[Master Theorem]] for solving recurrence relations of the form: $$
 T(n)=\begin{cases}
