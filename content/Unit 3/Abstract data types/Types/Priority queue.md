@@ -25,34 +25,35 @@ operators:
 ```
 Note how two constructors are used - one to for min priority queues and one for max priority queues.
 ## Implementation
-Python 3: how to create minPQ and maxPQ lists given a dictionary. You can then use the list as a queue or pipe it into the queue module.
-```python
-urban_population_data = {
-    "India": 36,
-    "China": 65,
-    "US": 83,
-    "Indonesia": 59,
-    "Pakistan": 35,
-    "Nigeria": 54,
-}
-
-# Enqueue new data
-new_data = {"Brazil": 88}
-urban_population_data.update(new_data)
-
-# Minimum Priority Queue by urban population %
-# the lambda means fetch the 2nd element (in this case, the value)
-minPQ = sorted(
-    urban_population_data.items(), key=lambda elem: elem[1]
-)
-print("minPQ is ", minPQ)
-
-# Maximum Priority Queue by urban population %
-maxPQ = sorted(
-    urban_population_data.items(), key=lambda elem: elem[1], reverse=True
-) # reverse=True for descending order
-print("maxPQ is ", maxPQ)
-```
+Python 3:
+> [!note]- Using sorted() and lambdas (no imported modules)
+> ```python
+> urban_population_data = {
+> 	"India": 36,
+> 	"China": 65,
+> 	"US": 83,
+> 	"Indonesia": 59,
+> 	"Pakistan": 35,
+> 	"Nigeria": 54,
+> }
+> 
+> # Enqueue new data
+> new_data = {"Brazil": 88}
+> urban_population_data.update(new_data)
+> 
+> # Minimum Priority Queue by urban population %
+> # the lambda means fetch the 2nd element (in this case, the value)
+> minPQ = sorted(
+>     urban_population_data.items(), key=lambda elem: elem[1]
+> )
+> print("minPQ is ", minPQ)
+> 
+> # Maximum Priority Queue by urban population %
+> maxPQ = sorted(
+> 	urban_population_data.items(), key=lambda elem: elem[1], reverse=True
+> ) # reverse=True for descending order
+> print("maxPQ is ", maxPQ)
+> ```
 
 
 [^1]: https://en.wikipedia.org/wiki/Priority_queue
