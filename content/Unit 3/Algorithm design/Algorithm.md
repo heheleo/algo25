@@ -1,1 +1,1 @@
-A process
+A process or set of steps to be followed to achieve an outcome or result.
