@@ -25,8 +25,7 @@ operators:
 ```
 Note how two constructors are used - one to for min priority queues and one for max priority queues.
 ## Implementation
-Python 3:
-> [!note]- Using sorted() and lambdas (no imported modules)
+> [!note]- Python 3 (native) - sorted() and lambdas
 > ```python
 > urban_population_data = {
 > 	"India": 36,

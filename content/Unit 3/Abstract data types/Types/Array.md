@@ -17,17 +17,18 @@ operations:
   length: Array -> int;
 ```
 ## Implementation
-Python 3:
-```python
-# initialisation
-car_brands = ["bmw", "mercedes", "toyota"]
+> [!note]- Python 3
+> ```python
+> # initialisation
+> car_brands = ["bmw", "mercedes", "toyota"]
+> 
+> # getting
+> car_brands[1] # "mercedes"
+> 
+> # setting
+> car_brands[0] = "volvo" # ["kia", "mercedes", "toyota"]
+> 
+> # length
+> len(car_brands) # 3
+> ```
 
-# getting
-car_brands[1] # "mercedes"
-
-# setting
-car_brands[0] = "volvo" # ["kia", "mercedes", "toyota"]
-
-# length
-len(car_brands) # 3
-```

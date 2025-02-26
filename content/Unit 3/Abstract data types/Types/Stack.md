@@ -20,37 +20,32 @@ operators:
   top: Stack -> element;
   isEmpty: Stack -> boolean;
 ```
+## Implementation
+> [!note]- Python 3
+> ```python
+> class Stack:
+>     def __init__(self):
+>         self.Stack=[]
+> 
+>     def push(self,val):
+>         self.Stack.append(val)
+>         
+>     def pop(self):
+>         lengh=len(self.Stack)
+>         if lengh==0:
+>             return None
+>         else:
+>             return self.Stack.pop(lengh-1)
+>         
+>     def top(self):
+>         lengh=len(self.Stack)
+>         if lengh==0:
+>             return None
+>         else:
+>             return self.Stack[lengh-1] 
+>         
+>     def isEmpty(self):
+>         return (True if len(self.Stack) == 0 else False) 
+> ```
 
 [^1]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
-
-
-
-```python
-
-class Stack:
-    def __init__(self):
-        self.Stack=[]
-
-    def push(self,val):
-        self.Stack.append(val)
-        
-    def pop(self):
-        lengh=len(self.Stack)
-        if lengh==0:
-            return None
-        else:
-            return self.Stack.pop(lengh-1)
-        
-    def top(self):
-        lengh=len(self.Stack)
-        if lengh==0:
-            return None
-        else:
-            return self.Stack[lengh-1] 
-        
-    def isEmpty(self):
-        return (True if len(self.Stack) == 0 else False)
-    
-
-        
-```
