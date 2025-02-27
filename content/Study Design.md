@@ -115,7 +115,7 @@ $$, where $a_{i} \in \mathbb{N}$
 ## AOS2: Advanced algorithm design
 Key knowledge
 - the binary search algorithm
-- divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick Sort]]
+- divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick sort]]
 - dynamic programming algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
 - the application of heuristics and randomised search to overcoming the soft limits of computation, including the limitations of these methods

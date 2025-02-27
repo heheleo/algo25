@@ -1,34 +1,24 @@
-
-There are many styles of pseudocode
-
-Pseudocode defines an algorithm, and often used to describe how algorithm works.
-Good for communication between programmers of other languages
+Pseudocode defines and describes how an algorithm works through the use of a more understandable language (English).
 
 Types of pseudocode:
 - structured English
 - structured pseudocode
 
-flowcharts are also a big thing when it comes to representing computing processes.
-
-
-
-
-### Advantages and disadvantages of pseudocode
+Flowcharts are also important when it comes to representing computing processes.
+## Advantages and disadvantages of pseudocode
 Advantages:
-- Readable
-- clear
-- easier to make than flowcharts
+- readable
+- good for communication between programmers using other languages
 - easy to plan describe and communicate
 - easy to modify and trouble shoot logic (similar to rubber ducky)
-- easy to code into code (subjective)
+- easy to transform into actual code (subjective)
 Disadvantages:
 - lack of standards
 - few rules
 - potential ambiguity (*e.g. does "for x from 1 to 2" include 2?*)
 - more detail oriented
 # Structured English
-Just normal English that describes steps in discrete instructions similar to code.
-E.g.
+Just normal English that describes steps in discrete instructions similar to code:
 ```
 Set count to 0
 Look at each item in price list
@@ -39,7 +29,6 @@ once complete, display count
 # Structured pseudocode
 Makes use of phrases similar to real code
 For algorithms there is not a strict set of syntax for pseudocode.
-
 ## Common conventions
 Common but not mandatory conventions include:
 - indenting blocks
@@ -48,18 +37,15 @@ Common but not mandatory conventions include:
 	- common pairs include:
 		- ''=" for assignment "=\=" for comparison
 		- "<-" or ":=" for assignment "="  for comparison
-
 ## Blocks
-
 ### IF
 ```
-If (cond) then
+If cond then
 	...
 Else
 	...
 End If
 ```
-
 ### FOR
 note, does not include the second number, goes  \[1:10)
 ```
@@ -79,31 +65,22 @@ While (cond) do
 	...
 End do
 ```
-
 ### REPEAT UNTIL
 ```
 Repeat until (cond) do
 	...
 End do
 ```
-
-### ALGO
+### ALGORITHM
 ```
 Algorithm algoName
-//Input: ...
-//Input: ...
-//Output: ....
-//Assumption: ...
-
-code
+	//Input: ...
+	//Input: ...
+	//Output: ....
+	//Assumption: ...
 
 End Algorithm
 ```
-call by
-```
-algoName()
-```
-
 ### FUNCTION
 ```
 Function functName (inputs)
@@ -113,4 +90,9 @@ Function functName (inputs)
 	...
 
 End Function
+```
+
+Call a function by
+```
+functName()
 ```
