@@ -116,11 +116,11 @@ $$, where $a_{i} \in \mathbb{N}$
 Key knowledge
 - the binary search algorithm
 - divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick sort]]
-- dynamic programming algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
+- [[dynamic programming]] algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
-- the application of heuristics and randomised search to overcoming the soft limits of computation, including the limitations of these methods
-- hill climbing on heuristic functions, the A* algorithm and the simulated annealing algorithm
-- the graph colouring, 0-1 knapsack and travelling salesman problems and heuristic methods for solving them
+- the application of [[heuristics]] and randomised search to overcoming the soft [[limits of computability]], including the limitations of these methods
+- [[hill climbing]] on heuristic functions, the A* algorithm and the simulated annealing algorithm
+- the [[graph colouring problem]], [[0-1 knapsack problem]] and [[travelling salesman problem]] and heuristic methods for solving them
 
 Key skills
 - apply the divide and conquer, dynamic programming and backtracking design patterns to design algorithms and recognise their usage within given algorithms
@@ -130,15 +130,15 @@ Key skills
 
 ## AOS3 Computer science: past and present
 Key knowledge
-- the historical connections between the foundational crisis of mathematics in the early 20th century and the origin of computer science, including Hilbert and Ackermann’s Entscheidungsproblem and its resolution by Church and Turing
-- characteristics of a Turing machine
-- the concept of decidability and the Halting Problem as an example of an undecidable problem
+- the historical connections between the foundational crisis of mathematics in the early 20th century and the origin of computer science, including Hilbert and Ackermann’s [[Entscheidungsproblem]] and its resolution by Church and Turing
+- characteristics of a [[Turing machine]]
+- the concept of decidability and the [[Halting Problem]] as an example of an undecidable problem
 - implications of undecidability for the limits of computation
-- philosophical conceptions of artificial intelligence, including the Turing Test, weak AI and strong AI
-- Searle’s Chinese Room Argument, including standard responses both for and against
+- philosophical conceptions of artificial intelligence, including the [[Turing Test]], [[Weak and Strong AI]]
+- [[Searle's Chinese Room Argument]], including standard responses both for and against
 - the concept of training algorithms using data
 - the concepts of model overfitting and underfitting
-- support vector machines (SVM) as margin-maximising linear classifiers, including:
+- [[support vector machines]] (SVM) as margin-maximising linear classifiers, including:
 - the geometric interpretation of applying SVM binary classification to one- or two-dimensional data
 - the creation of a second feature from one-dimensional data to allow linear classification
 - neural networks, including:

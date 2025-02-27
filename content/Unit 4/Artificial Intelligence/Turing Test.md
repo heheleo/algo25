@@ -1,0 +1,1 @@
+The Turing test was created by Alan Turing in 1950. The test involves one person communicates separately with a machine and a person over writing, without know which one is the machine and which one is the person, and attempts to identify which one was the machine. If the person is not able to identify the machine, then the machine passes.

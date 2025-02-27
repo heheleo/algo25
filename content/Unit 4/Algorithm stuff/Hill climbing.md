@@ -1,0 +1,1 @@
+Hill climbing is an optimisation technique that aims to find a better solution via incremental changes to the solution. Due to this, hill climbing will approach a locally optimal solution (any small changes will be worse), which may not be the globally optimal solution. This can partially be solved through the use of [[simulated annealing]].

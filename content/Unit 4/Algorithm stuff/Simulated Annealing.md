@@ -1,0 +1,1 @@
+Simulated Annealing is a metaheuristic that aims to find a global maximum

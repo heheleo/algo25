@@ -1,0 +1,1 @@
+A Turing machine is an abstract machine 

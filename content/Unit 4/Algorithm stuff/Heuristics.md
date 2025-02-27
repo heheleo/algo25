@@ -1,0 +1,1 @@
+Heuristics are techniques that  

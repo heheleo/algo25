@@ -1,0 +1,1 @@
+Dynamic programming refers to the practice of recursively breaking down a problem into sub-problems in order to simplify a problem.
