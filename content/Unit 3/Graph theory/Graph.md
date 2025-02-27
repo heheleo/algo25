@@ -5,6 +5,9 @@ aliases:
 An [[Abstract data type|ADT]] which represents information through [[Node|nodes]] and [[Edge|edges]].
 ## Notation
 [[Notation#Graph]]
+## Properties
+- [[Diameter (graph theory)|Diameter]]
+- [[Distance (graph theory)|Distance]]
 ## Representations
 - [[Adjacency matrix]]
 - [[Adjacency list]]
@@ -25,7 +28,6 @@ operators:
   isAdjacent: Graph × node × node -> boolean;
   neighbours: Graph × node -> list;
 ```
-
 ## Variations
 - [[Tree]]
 	- [[Decision tree]]
