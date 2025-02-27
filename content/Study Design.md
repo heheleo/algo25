@@ -22,7 +22,7 @@ Key knowledge
 	- [[Graph#Types]]
 		- [[Complete graph]]
 		- [[Connected graph]]
-		- [[Directed acrylic graph]]
+		- [[Directed acyclic graph]]
 		- [[Tree]]
 - modularisation and abstraction of information representation with ADTs
 - the structure of decision trees and state graphs

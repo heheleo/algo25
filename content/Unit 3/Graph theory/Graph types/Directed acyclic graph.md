@@ -1,4 +1,4 @@
-A [[Directed graph|directed graph]] that contains no [[Cycle|cycles]].
+A [[Directed graph|directed graph]] that contains no [[Cycle|cycles]] ([[Acyclic|acyclic]]).
 
 In other words, it consists of [[Node|vertices]] and [[Edge|edges]] with each edge directed from one vertex to another, such that following those directions will never form a closed loop.[^1]
 ## Properties

@@ -35,7 +35,7 @@ operators:
 	- [[Spanning tree]]
 - [[Complete graph]]
 - [[Connected graph]]
-- [[Directed acrylic graph]]
+- [[Directed acyclic graph]]
 - [[Directed graph]]
 - [[Labelled graph]]
 - [[Planar graph]]

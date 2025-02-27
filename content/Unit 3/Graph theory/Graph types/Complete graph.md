@@ -1,4 +1,6 @@
 A [[Simple graph|simple graph]] where any one node has a connection to all other nodes. The complete graph with $n$ vertices is sometimes denoted $K_{n}$.
+## Properties
+- if $n>2$, then it is always [[Cycle|cycle]] (contains a [[Cycle|cycle]])
 ## Degree of one node
 The degree of any one node is equal to the total amount of nodes minus one:
 $$
