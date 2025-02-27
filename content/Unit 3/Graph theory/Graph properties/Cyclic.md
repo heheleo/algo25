@@ -1,0 +1,1 @@
+A [[Graph|graph]] is cyclic if it contains at least one [[Cycle|cycle]] (no repeated edges and nodes, starts and ends at same node).

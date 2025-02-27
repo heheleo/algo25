@@ -1,0 +1,1 @@
+A [[Graph|graph]] is acyclic if it is not [[Cyclic|cyclic]], that is, it does not contain a [[Cycle|cycle]].

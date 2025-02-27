@@ -3,12 +3,13 @@ An [[Undirected graph|undirected graph]] in which any two distinct [[Node|nodes]
 - [[Simple graph|simple]]
 - [[Connected graph|connected]]
 - no [[Circuit|circuits]]
+- [[Acyclic|acyclic]]
 ## Number of edges
 The number of edges will always be one less than the number of [[Node|nodes]].
 $$
 |E|=|N|-1
 $$
->[!proof]
+>[!proof]- Proof by Mathematical Induction
 >Proof by mathematical induction. Let $P(n)$ be the proposition such that a tree with $n$ nodes will satisfy $e=n-1$, where $e$ denotes the number of edges, and $n$ denotes the number of nodes.
 >
 >**Base case**: since there is only one node, there will be 0 edges as there is no other node to connect to. As a result, $P(1)$ holds.
