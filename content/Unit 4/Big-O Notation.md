@@ -1,5 +1,7 @@
 Big-O notation describes the limiting behaviour of a function as it tends towards infinity. Big-O notation is also used to describe the space and time complexity of an algorithm, giving an idea of the algorithm's performance as the input size increases. A simple definition of Big-O notation is that $f(n)=O(g(n))$ if there exists a positive number $M$ and a real number $x_0$ such that
-$$|f(n)| \leq M \space |g(n)| \text{ for all } x \geq x_0$$ 
+$$
+|f(n)| \leq M \space |g(n)| \text{ for all } x \geq x_0
+$$
 There are other, related notations given here, and are defined in a similar manner.
 
 | Notation            | Basic Meaning                                    |

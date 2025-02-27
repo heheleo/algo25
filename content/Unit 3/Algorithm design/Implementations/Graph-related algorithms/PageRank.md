@@ -1,5 +1,5 @@
 #TODO #A
-PageRank is an algorithm used to rank web pages. PageRank outputs the probability that for any web page, a person clicking on random links in web pages will arrive at that web page. Therefore, the sum of PageRank of all web pages is equal to 1.
+PageRank is an algorithm used to rank web pages. PageRank outputs the probability that for any web page, a person clicking on random links in web pages will arrive at that web page. Therefore, the sum of PageRank of all web pages is equal to 1. If the imaginary person reaches a webpage which has no outgoing links, they randomly go to any web page.
 
 
 Python Implementation:
