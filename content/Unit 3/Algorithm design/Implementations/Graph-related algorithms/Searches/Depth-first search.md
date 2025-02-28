@@ -3,7 +3,7 @@ Searches along branches as far as it can go before backtracking.
 ## Efficiency
 - Best, average and worst-case time complexity: $O(|V|+|E|)$ where $|V|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]].
 ## Implementation
-> [!note]- Python 3
+> [!note]- Python 3 (trees)
 > ```python
 > import networkx as nx
 > 

@@ -15,14 +15,19 @@ Define a graph $G = \{N,E\}$. Define $d(a,b)$ to be the [[Distance (graph theory
 Distance is not defined for disconnected graphs, hence some areas say it is infinite[^1], undefined, etc - what is emphasised is that that there is no standard definition.
 ## Example
 Find the diameter of the following graph:
-![[Pasted image 20250227191011.png|250]]
-Step 1: List all the distances between each node pair. Exclude the distance to itself (i.e. $d(a,a)$) and the distance between a node and an adjacent node.
 
-| $d(a,e)=2$     | $d(b,d)=2$     |
-| -------------- | -------------- |
-| $d(a,c)=2$     | $d(c,f)=2$     |
-| ==$d(a,d)=3$== | $d(d,e)=2$     |
-| $d(b,f)=2$     | ==$d(d,f)=3$== |
-Step 2: Find the maximum within these distances. This will be the diameter (highlighted).
+![[Pasted image 20250227191011.png|250]]
+
+Step 1: List all the distances between each node pair. Exclude the distance to itself (i.e. $d(a,a)$) and the distance between a node and an adjacent node:
+- $d(a,e)=2$
+- $d(b,d)=2$
+- $d(a,c)=2$
+- $d(c,f)=2$
+- $d(d,e)=2$
+- $d(a,d)=3$
+- $d(b,f)=2$
+- $d(d,f)=3$
+
+Step 2: Find the maximum within these distances. This will be the diameter. Hence, $d(a,d)=d(d,f)=3$ will be the diameter.
 
 [^1]: https://mathworld.wolfram.com/GraphDiameter.html

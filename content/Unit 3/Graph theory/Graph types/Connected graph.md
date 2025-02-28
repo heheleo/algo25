@@ -5,5 +5,4 @@ A bridge is an edge within a connected graph such that when removed, the connect
 - will have at least one [[Subgraph|subgraph]] that is a [[Tree|tree]].
 	- if the tree connects all vertices in the graph, it is called a spanning tree.
 ## Example
-A connected graph with a bridge:
 ![[bridge_example.png|300]]
