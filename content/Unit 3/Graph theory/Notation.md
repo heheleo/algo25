@@ -7,7 +7,7 @@ We define a simple, unlabelled graph G as a **pair** of two sets:
 $$
 G\stackrel{\text{def}}{=}(N,E)
 $$
-Where N is a set of [[Node|nodes]] and E is a set of [[Edge|edges]] between the nodes in the graph.
+Where N is a set of [[Node|nodes]] and E is a set of [[Edge|edges]] between the nodes in the graph. $N$ can also be denoted $V$, which denotes vertex. ==They are interchangable.==
 ## [[Node|Nodes]]
 N can be defined by a set of pronumerals.
 $$

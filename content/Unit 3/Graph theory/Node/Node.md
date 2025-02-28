@@ -14,4 +14,4 @@ $$
 \sum_{i=0}^{n(N)}Deg( N[i] )=n(E)\times2
 $$
 ## Notation
-[[Notation#Node Nodes]]
+[[Notation#Node Nodes|Node notation]]

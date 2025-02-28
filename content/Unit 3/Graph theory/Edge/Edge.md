@@ -6,4 +6,4 @@ aliases:
 
 Represents a connection between two [[Node|nodes]].
 ## Notation
-[[Notation#Edge Edges]]
+[[Notation#Edge Edges|Edges notation]]
