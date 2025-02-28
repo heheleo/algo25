@@ -1,7 +1,10 @@
-![[Depth-First-Search.gif]]
-Searches along branches as far as it can go before backtracking.
+A traversal method that prioritizes going as far as possible and then backtracks when no further path is available.
+## Visualisation
+![[Depth-First-Search.gif|230]]
+![[Pasted image 20250228114431.png|400]]
 ## Efficiency
-- Best, average and worst-case time complexity: $O(|V|+|E|)$ where $|V|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]].
+- Time complexity: $O(|V|+|E|)$ where $|V|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]]. This is because every vertex and every edge would be visited in the worst case scenario.
+- Space complexity: Maximum number of vertices in output list, and maximum number of vertices in visited list is $|V|$. Hence using $O(|V|)$ space complexity.
 ## Implementation
 > [!note]- Python 3 (trees)
 > ```python

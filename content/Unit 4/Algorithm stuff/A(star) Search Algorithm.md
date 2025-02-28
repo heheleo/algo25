@@ -1,1 +1,1 @@
-The A* search algorithm is a [[best-first search]] that finds the optimal path from a start node to an end node. It operates by choosing the next node according to some heuristic function, which is likely an approximation of the cost from that node to the end node.
+The A* search algorithm is a [[Best-first search]] that finds the optimal path from a start node to an end node. It operates by choosing the next node according to some heuristic function, which is likely an approximation of the cost from that node to the end node.
