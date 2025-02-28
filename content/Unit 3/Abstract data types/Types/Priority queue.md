@@ -25,7 +25,37 @@ operators:
 ```
 Note how two constructors are used - one to for min priority queues and one for max priority queues.
 ## Implementation
-> [!note]- Python 3 (native) - sorted() and lambdas
+> [!note]- Python 3 - PriorityQueue import
+> ```python
+> from queue import PriorityQueue 
+> 
+> # NOTE: This is a MINIMUM priority queue
+> # this CAN BE CHANGED if you negate all of the priorities, but then all other associated logic might also require reversing, hence, likely not a good decision. Implement a class yourself.
+> q = PriorityQueue() 
+> 
+> # insert into queue 
+> # in syntax .put((weight, item))
+> # note it must be in brackets as it is a tuple
+> # the tuple can have infinite length, but the first item will always be the priority/rank 
+> q.put((500, "john"))
+> q.put((200, "michael"))
+> 
+> # remove and return 
+> # lowest priority item 
+> print(q.get()) # (200, "michael")
+> print(q.get()) # (500, "john")
+> 
+> # check queue size 
+> q.qsize() # 0
+> 
+> # check if queue is empty 
+> q.empty() # True
+> 
+> # check if queue is full 
+> q.full() # False
+> ```
+
+> [!note]- Python 3 (native) - constructing max/min priority queues
 > ```python
 > urban_population_data = {
 > 	"India": 36,
@@ -53,6 +83,5 @@ Note how two constructors are used - one to for min priority queues and one for 
 > ) # reverse=True for descending order
 > print("maxPQ is ", maxPQ)
 > ```
-
 
 [^1]: https://en.wikipedia.org/wiki/Priority_queue
