@@ -1,7 +1,7 @@
 ![[Depth-First-Search.gif]]
 Searches along branches as far as it can go before backtracking.
 ## Efficiency
-- Best, average and worst-case performance: $O(|N|+|E|)$ where $|N|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]]
+- Best, average and worst-case time complexity: $O(|V|+|E|)$ where $|V|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]].
 ## Implementation
 > [!note]- Python 3
 > ```python
