@@ -21,7 +21,7 @@ The edge-updating section repeats $|V|-1$ times because the longest possible pat
 >     return node_distances
 > 
 > def find_shortest_path(graph: nx.DiGraph, start, end) -> list:
->     node_distances = bellmanford(graph, start)
+>     node_distances = bellman_ford(graph, start)
 >     path = [end]
 >     while path[0] != start:
 >         for i in graph.predecessors(path[0]):

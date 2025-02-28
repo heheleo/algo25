@@ -118,7 +118,7 @@ Key knowledge
 - divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick sort]]
 - [[dynamic programming]] algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
-- the application of [[heuristics]] and randomised search to overcoming the soft [[limits of computability]], including the limitations of these methods
+- the application of [[heuristics]] and randomised search to overcoming the soft [[Limits of Computability|limits of computation]], including the limitations of these methods
 - [[hill climbing]] on heuristic functions, the A* algorithm and the simulated annealing algorithm
 - the [[graph colouring problem]], [[0-1 knapsack problem]] and [[travelling salesman problem]] and heuristic methods for solving them
 
@@ -141,7 +141,7 @@ Key knowledge
 - [[support vector machines]] (SVM) as margin-maximising linear classifiers, including:
 - the geometric interpretation of applying SVM binary classification to one- or two-dimensional data
 - the creation of a second feature from one-dimensional data to allow linear classification
-- neural networks, including:
+- [[neural networks]], including:
 - the structure of multi-layer perceptron neural networks
 - the evaluation of outputs using forward propagation
 - training neural networks by using iterative improvement of the edge weights to reduce the output error
