@@ -1,0 +1,1 @@
+A [[Cycle|cycle]] within a [[Graph|graph]] that has edges sum to a negative value.
