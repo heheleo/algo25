@@ -32,7 +32,7 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 >     return node_distances
 > 
 > def find_shortest_path(graph: nx.DiGraph, start, end) -> list:
->     node_distances = bellmanford(graph, start)
+>     node_distances = bellman_ford(graph, start)
 >     path = [end]
 >     while path[0] != start:
 >         for i in graph.predecessors(path[0]):
