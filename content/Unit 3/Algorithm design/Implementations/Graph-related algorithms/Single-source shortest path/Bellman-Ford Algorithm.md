@@ -2,7 +2,7 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 ## Restrictions
 - must be a [[Weighted graph|weighted graph]]
 - must not contain a [[Negative weight cycle|negative weight cycle]]
-	- however, the Bellmen-Ford algorithm can detect if it does contain one!
+	- however, the Bellman-Ford algorithm can detect if it does contain one!
 	- minimum distance does not make sense in graphs with negative weight cycles, as one could traverse the cycle an infinite amount of times, and there would be no lower bound on the weight
 ## Abstract
 > [!note]- Algorithm abstract
@@ -14,7 +14,6 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 ## Efficiency
 - Time complexity: $O(|V||E|)$
 ## Implementation
-
 > [!note]- Python 3 (NetworkX) - Alex's Method
 > ```python
 > import networkx as nx
