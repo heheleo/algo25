@@ -4,6 +4,22 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 - must not contain a [[Negative weight cycle|negative weight cycle]]
 	- however, the Bellmen-Ford algorithm can detect if it does contain one!
 	- minimum distance does not make sense in graphs with negative weight cycles, as one could traverse the cycle an infinite amount of times, and there would be no lower bound on the weight
+
+### Representation 
+This process is easily understood with. 
+First, create a data structs that stores one "distance" value for every node. Assign the starting node a distance of zero, this is what will refer to as the Origin or node $O$. Assign all other "distance" values to be infinite.
+Each of these distances can be thought of as $O\to X$, each representing the shortest distance from the starting node $O$ to node $X$ we have already found.
+
+There is a nested loop within Bellman-Ford Algorithm's Algorithm that consists of two 'for' loops.
+
+The inner loop iterates over all the edges
+The process for each iteration of the inner loop is as follows: 
+Say you are iterating over an edge that goes from nodes U to V. What you are essentially trying to do is seeing if using node U as a detour can result in a shorter route from O to V.
+As such you want to compare  $O\to V$ to $(O\to U\to V)$, the latter computed by adding the current shortest distance to node $U$ found and the weight of the $U \to V$ edge. And set the lesser of the two as the new $O\to V$.
+Each time the inner loop runs, at least one of the edges relevant to the shortest path would have been considered as a potential detour. 
+
+The longest "shortest path" possible between two nodes consists of $|V|-1$ edges. As such as long as you run the inner loop $|V|-1$ you would have covered all edge cases.
+
 ## Abstract
 > [!note]- Algorithm abstract
 > Finds the shortest paths from a node to all other nodes in a weighted directed graph. Operates by repeatedly lowering the distances for each node if the distance of the edge plus its starting node is lower than the current distance, iterating over all edges in the graph at most $|V|-1$ times.
