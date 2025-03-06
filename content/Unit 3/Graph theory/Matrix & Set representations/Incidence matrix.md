@@ -1,3 +1,8 @@
+
+## Incidence
+A node is incident with an edge if the node is one of the endpoints of that edge.
+
+
 The incidence matrix of an [[Undirected graph|undirected graph]] is a $n \times m$ matrix $B$, where $n$ and $m$ denote the number of [[Node|nodes]] and [[Edge|edges]] respectively, such that[^1]
 $$
 B_{{ij}}=\begin{cases}
@@ -13,6 +18,8 @@ B_{{ij}}=\begin{cases}
 0 & \text{otherwise}
 \end{cases}
 $$
+
+
 ## Example
 Given an undirected graph:
 ![[Pasted image 20250214195339.png]]

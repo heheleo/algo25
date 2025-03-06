@@ -1,5 +1,4 @@
 
-#TODO  #K
 The equivalence operator should have 3 properties:
 - reflexive
 - symmetric
