@@ -1,4 +1,7 @@
 Searches all nodes at the current depth before moving to the next depth. Also known as BFS.
+
+Each layer or deph are labeled as "levels", the source node is labeled level 0, neighbors of the source node are labeled level 1, and so on.
+
 ## Formats
 Problems that require BFS can present in various formats:
 - Shortest path from a set of nodes to some specific node
