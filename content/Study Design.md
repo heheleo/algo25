@@ -42,11 +42,12 @@ Key knowledge
 	- [[Pseudocode]]
 - programming language constructs that directly correspond to pseudocode concepts
 - conditional expressions using the logical operations of AND, OR, NOT
-	- [[Boolean Algebra]]
+	- [[Boolean algebra]]
 - recursion and iteration and their uses in algorithm design
 - modular design of algorithms and ADTs
 - characteristics and suitability of the brute-force search and greedy algorithm design patterns
 - graph traversal techniques, including breadth-first search and depth-first search
+	- [[Breadth-first search]], [[Depth-first search]]
 - specification, correctness and limitations of the following graph algorithms:
 	- [[Prim's Algorithm]] for computing the minimal spanning tree of a graph
 	- [[Dijkstra's Algorithm]] and the [[Bellman-Ford Algorithm]] for the single-source shortest path problem
