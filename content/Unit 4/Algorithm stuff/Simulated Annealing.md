@@ -1,1 +1,1 @@
-Simulated Annealing is a metaheuristic that aims to find a global maximum
+Simulated Annealing is a [[Heuristics#Metaheuristics|metaheuristic]] that aims to find a global maximum
