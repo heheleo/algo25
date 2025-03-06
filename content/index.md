@@ -12,7 +12,29 @@ Primary references:
 # Table of Contents
 ## Unit 3
 - Graph theory
-	- [[Notation|Graph theory notation]]
 	- [[Graph]]
+	- [[Notation|Graph theory notation]]
+	- Graph travelling
+		- [[Circuit|Circuit]], [[Cycle|cycle]], [[Eulerian trail]], [[Eulerian circuit]], [[Hamiltonian path]], [[Hamiltonian cycle]]
+	- Graph properties
+		- [[Acyclic]], [[Cyclic|cyclic]]
+	- Types of graphs
+		- [[Complete graph|Complete]], [[Connected graph|connected]], [[Directed acyclic graph|directed acyclic]], [[Directed graph|directed]], [[Labelled graph|labelled]], [[Planar graph|planar]], [[Simple graph|simple]], [[Subgraph|subgraph]], [[Undirected graph|undirected]], [[Weighted graph|weighted]], [[Tree|tree]]
+	- [[Diameter (graph theory)]], [[Distance (graph theory)]]
 - Abstract data types
-	- [[Abstract data type]]
+	- [[Abstract data type]] 
+		- [[Set]], [[List|list]], [[Array|array]], [[Dictionary|dictionary]], [[Stack|stack]], [[Queue|queue]], [[Priority queue|priority queue]], [[Graph|graph]]
+	- [[Abstract data type signature]]
+- Boolean algebra
+	- [[Conjunction (boolean algebra)|AND]], [[Disjunction (boolean algebra)|OR]], [[Negation (boolean algebra)|NOT]]
+- Algorithm design
+	- [[Algorithm]]
+	- [[Algorithm types]]
+	- Implementations
+		- [[Best-first search]]
+		- [[Breadth-first search]]
+		- [[Depth-first search]]
+		- [[Bellman-Ford Algorithm]]
+		- [[Dijkstra's Algorithm]]
+		- [[Floyd-Warshall Algorithm]]
+		- [[Prim's Algorithm]]
