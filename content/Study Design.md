@@ -54,7 +54,7 @@ Key knowledge
 	- the [[Floyd-Warshall Algorithm]] algorithm for the all-pairs shortest path problem and its application to the transitive closure problem
 	- the [[PageRank]] algorithm for estimating the importance of a node based on its links
 - induction and contradiction as methods for demonstrating the correctness of simple iterative and recursive algorithms
-Key skills
+Key skills 
 - interpret pseudocode and execute it manually on given input
 - write pseudocode
 - identify and describe recursive, iterative, brute-force search and greedy design patterns within algorithms

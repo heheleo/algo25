@@ -1,1 +1,0 @@
-The halting problem is a problem that asks, for an arbitrary computer program and input, is it possible to determine if the program will run forever.
