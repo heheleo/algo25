@@ -7,10 +7,14 @@ Python Implementation:
 ```python
 import networkx as nx
 
-def prim(graph: nx.Graph) -> nx.Graph:
+def prim(graph: nx.Graph, start) -> nx.Graph:
     tree = nx.Graph()
-    tree.add_node(list(graph)[0])
-    while len(tree.nodes) < len(graph.nodes):
+    tree.add_node(start)
+    reachable_nodes = 0
+    for node in graph.nodes:
+        if nx.has_path(graph, start, node):
+            reachable_nodes += 1
+    while len(tree.nodes) < reachable_nodes:
         edges = []
         for i in graph.edges.data():
             if i[0] in tree.nodes and i[1] in tree.nodes:
