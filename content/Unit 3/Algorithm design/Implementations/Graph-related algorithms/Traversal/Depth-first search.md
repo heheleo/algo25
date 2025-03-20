@@ -1,3 +1,7 @@
+---
+aliases:
+  - DFS
+---
 A traversal method that prioritizes going as far as possible and then backtracks when no further path is available.
 ## Visualisation
 ![[Depth-First-Search.gif|230]]

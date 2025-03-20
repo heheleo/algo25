@@ -15,7 +15,7 @@ The inner loop iterates over all the edges
 The process for each iteration of the inner loop is as follows: 
 Say you are iterating over an edge that goes from nodes U to V. What you are essentially trying to do is seeing if using node U as a detour can result in a shorter route from O to V.
 As such you want to compare  $O\to V$ to $(O\to U\to V)$, the latter computed by adding the current shortest distance to node $U$ found and the weight of the $U \to V$ edge. And set the lesser of the two as the new $O\to V$.
-Each time the inner loop runs, the program cements the distance for the next 1 "layer" of nodes from the center.
+Each time the inner loop runs, the program cements the distance for the next 1 "layer" of nodes from the centre.
 
 The longest "shortest path" possible between two nodes consists of $|V|-1$ edges. As such as long as you run the inner loop $|V|-1$ you would have covered all edge cases.
 

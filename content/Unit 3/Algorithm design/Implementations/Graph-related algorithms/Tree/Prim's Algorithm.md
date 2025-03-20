@@ -1,9 +1,9 @@
+A greedy algorithm that finds a minimum spanning tree of an undirected weighted graph. 
+## Abstract
+Prim's Algorithm operates by creating an empty tree, adding the edge with the lowest weight that connects a new vertex to the tree, then repeating the process until the tree connects all vertices of the original graph.
+## Visualisation
 ![[PrimAlgDemo.gif]]
-
-Prim's Algorithm is a greedy algorithm that finds a minimum spanning tree of an undirected weighted graph. Prim's Algorithm operates by creating an empty tree, adding the smallest edge that connects a new vertex to the tree, then repeating until the tree connects all vertices of the original graph.
-
-
-Python Implementation:
+## Implementation
 ```python
 import networkx as nx
 

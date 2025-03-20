@@ -2,7 +2,7 @@
 Checks all possible inputs for a solution. Brute-force algorithms will **always** find an optimal solution, albeit being very slow.
 ## Greedy algorithm
 Chooses the best option in the current state at every step. As it will make the best option at each step, it may end up with a less optimal solution overall 
-Examples include [[Dijkstra's Algorithm]]. 
+Examples include [[Dijkstra's algorithm]]. 
 because it priorities the best options for each action individually not the best options for the entire problem. 
 A greedy algorithm will be optimal if the problem satisfies two properties:
 - **Optimal Substructure**: The optimal solution consists of optimal solutions to its subproblems

@@ -1,14 +1,17 @@
-Searches all nodes at the current depth before moving to the next depth. Also known as BFS.
+---
+ali: BFS
+---
 
-Each layer or deph are labeled as "levels", the source node is labeled level 0, neighbors of the source node are labeled level 1, and so on.
+Searches all nodes at the current depth before moving to the next depth level. Abbreviated BFS.
 
+Layer/depth describe 'levels', the source node is labeled level 0, neighbours of the source node are labeled level 1, and so on.
 ## Formats
 Problems that require BFS can present in various formats:
-- Shortest path from a set of nodes to some specific node
+- shortest path from a set of nodes to some specific node
 	- use BFS directly
-- Some "obstacles" (or "bad nodes" or "bad cells") 
+- "obstacles" are present when finding the shortest distance ('bad nodes' or 'bad cells') 
 	- use BFS but do not include those nodes in your graph/algorithm.
-- Forbidden actions (for example, you are not allowed to move from some node to another if their sum is X) 
+- forbidden actions (for example, you are not allowed to move from some node to another if their sum is X) 
 	- use BFS but you are not going to include those edges in your graph/algorithm.
 In conclusion, BFS is an extremely powerful algorithm that does not need particular tuning. Solving a problem involving it is just a matter of how you construct the graph on which you will execute BFS.
 ## Types
