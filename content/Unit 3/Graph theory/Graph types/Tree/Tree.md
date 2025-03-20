@@ -4,6 +4,7 @@ An [[Undirected graph|undirected graph]] in which any two distinct [[Node|nodes]
 - [[Connected graph|connected]]
 - no [[Circuit|circuits]]
 - [[Acyclic|acyclic]]
+- 
 ## Number of edges
 The number of edges will always be one less than the number of [[Node|nodes]].
 $$
