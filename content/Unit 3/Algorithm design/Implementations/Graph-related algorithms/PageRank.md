@@ -1,6 +1,17 @@
 #TODO #A
-PageRank is an algorithm used to rank web pages. PageRank outputs the probability that for any web page, a person clicking on random links in web pages will arrive at that web page. Therefore, the sum of PageRank of all web pages is equal to 1. If the imaginary person reaches a webpage which has no outgoing links, they randomly go to any web page.
+PageRank is an algorithm used to rank web pages. PageRank was designed and is used by Google. PageRank outputs the probability that a person randomly clicking on links in web pages will arrive at a particular page, and so the sum of PageRank of all web pages is equal to 1. If the imaginary person reaches a webpage which has no outgoing links, they randomly go to any web page.
 
+Additionally, PageRank takes into account that a person clicking links will eventually stop clicking. This probability that the person stops clicking, and then goes to another random web page is called the damping factor, represented as $d$.
+
+The formula for the PageRank value of a node is 
+$$
+\text{PR}(n)=\frac{1-d}{N}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
+$$
+where $N$ is the total number of nodes in the graph, $V_n$ is the set of nodes in the graph that link to $n$, and $\text{L}(n)$ is the number of outgoing links of u.
+
+The PageRank values are then repeatedly calculated until the values converge, giving the final PageRank values.
+
+For those that have done General Maths, PageRank can be thought of as a transition matrix, repeatedly multiplying a column vector where each value is $\frac{1}{\text{node count}}$, until the steady-state matrix is found.
 
 Python Implementation:
 ```python
@@ -46,6 +57,6 @@ def PageRank(graph: nx.DiGraph, d: float = 0.85, tol: float = 1e-6, max_iter: in
         pagerank = transition_matrix @ pagerank * d + (1 - d) / len(graph.nodes)
         error = np.linalg.norm(prev_pagerank - pagerank)
         if error < tol:
-            return {node: pagerank[i, 0] for i, node in enumerate(graph.nodes)}
-    return {node: pagerank[i, 0] for i, node in enumerate(graph.nodes)}
+            return {node: float(pagerank[i, 0]) for i, node in enumerate(graph.nodes)}
+    return {node: float(pagerank[i, 0]) for i, node in enumerate(graph.nodes)}
 ```
