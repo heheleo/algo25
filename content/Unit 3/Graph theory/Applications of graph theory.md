@@ -1,4 +1,3 @@
-
 Applications of DFS
 - Determining cyclic/acyclic nature of a graph 
 - Topological Sorting 

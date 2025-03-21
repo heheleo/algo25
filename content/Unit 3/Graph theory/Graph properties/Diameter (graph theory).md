@@ -5,12 +5,12 @@ tags:
 Maximum [[Distance (graph theory)|distance]] between two [[Node|nodes]] within a [[Connected graph|connected graph]], where distance between two vertices is defined as the length of the shortest path between the two nodes. It is denoted $diam(G)$, and a deliberate way to confuse things is by calling it the "length of the longest shortest path".
 
 This is better illustrated by an [[#Example|example]].
-## Prerequisite knowledge
+## Definitions and Properties
 Define a graph $G = \{N,E\}$. Define $d(a,b)$ to be the [[Distance (graph theory)|distance]] between the two nodes $a,b$ such that $a, b \in N$. Intuitively:
 - $d(a,a)=0$
 	- this is the diameter when the graph consists of a single node
 - $d(a,b)=1$, where $a,b$ are [[Adjacent nodes|adjacent]]
-- If $n>1$, then $diam(G)>1$.
+- If $N>2$, then $diam(G)>1$.
 ## Disconnected graphs
 Distance is not defined for disconnected graphs, hence some areas say it is infinite[^1], undefined, etc - what is emphasised is that that there is no standard definition.
 ## Example

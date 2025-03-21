@@ -3,7 +3,7 @@ title: Algorithmics 25
 ---
 This vault contains notes for [VCE Algorithmics HESS](https://www.vcaa.vic.edu.au/curriculum/vce/vce-study-designs/algorithmics/Pages/Index.aspx), for the accreditation period 2023-2026. Work in progress.
 
-Notes are grouped by units and follows the [[Study Design|algorithmics study design]]. Code snippets will be written in [Python 3](https://www.python.org/downloads/), with usage of the [NetworkX](https://networkx.org) and [matplotlib](https://matplotlib.org) libraries.
+Notes are grouped by units and follows the [[Study Design|algorithmics study design]]. Code snippets will be written in [Python 3](https://www.python.org/downloads/), with usage of the [NetworkX](https://networkx.org) and [matplotlib](https://matplotlib.org) libraries. The notes are open source on [GitHub](https://github.com/heheleo/algo25).
 
 Primary references:
 - Gouros, G. (2022). _Algorithmics (HESS) Student Guide_.
