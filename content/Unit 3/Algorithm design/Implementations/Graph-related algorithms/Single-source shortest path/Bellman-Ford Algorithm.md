@@ -62,7 +62,7 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 > import networkx as nx
 > import matplotlib.pyplot as plt
 > 
-> def bellman_ford(G: nx.Graph, start_node: int) -> tuple[dict, bool]:
+> def bellman_ford(G: nx.DiGraph, start_node: int) -> tuple[dict, bool]:
 >     # Create an dictionary for distances and initialize it to infinity for all nodes:
 >     distance = {node: float("infinity") for node in G.nodes}
 >     # Set the distance of the start node to 0:
