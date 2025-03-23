@@ -19,8 +19,8 @@ Primary references:
 	- Graph properties
 		- [[Acyclic]], [[Cyclic|cyclic]]
 	- Types of graphs
-		- [[Complete graph|Complete]], [[Connected graph|connected]], [[Directed acyclic graph|directed acyclic]], [[Directed graph|directed]], [[Labelled graph|labelled]], [[Planar graph|planar]], [[Simple graph|simple]], [[Subgraph|subgraph]], [[Undirected graph|undirected]], [[Weighted graph|weighted]], [[Tree|tree]]
-	- [[Diameter (graph theory)]], [[Distance (graph theory)]]
+		- [[Complete graph|Complete]], [[Connected graph|connected]], [[Directed acyclic graph|directed acyclic]], [[Directed graph|directed]], [[Labelled graph|labelled]], [[Planar graph|planar]], [[Simple graph|simple]], [[Subgraph|subgraph]], [[Undirected graph|undirected]], [[Weighted graph|weighted]], [[Tree|tree]], [[Isomorphic graph|isomorphic]]
+	- [[Diameter (graph theory)|Diameter of a graph]], [[Distance (graph theory)|distance]]
 - Abstract data types
 	- [[Abstract data type]] 
 		- [[Set]], [[List|list]], [[Array|array]], [[Dictionary|dictionary]], [[Stack|stack]], [[Queue|queue]], [[Priority queue|priority queue]], [[Graph|graph]]
@@ -31,10 +31,12 @@ Primary references:
 	- [[Algorithm]]
 	- [[Algorithm types]]
 	- Implementations
-		- [[Best-first search]]
-		- [[Breadth-first search]]
-		- [[Depth-first search]]
-		- [[Bellman-Ford algorithm]]
-		- [[Dijkstra's algorithm]]
-		- [[Floyd-Warshall algorithm]]
+		- Graph traversal
+			- [[Best-first search]]
+			- [[Breadth-first search]]
+			- [[Depth-first search]]
+		- Shortest path
+			- [[Bellman-Ford algorithm]]
+			- [[Dijkstra's algorithm]]
+			- [[Floyd-Warshall algorithm]]
 		- [[Prim's Algorithm]]

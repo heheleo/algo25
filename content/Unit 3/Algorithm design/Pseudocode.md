@@ -1,22 +1,13 @@
-Pseudocode defines and describes how an algorithm works through the use of a more understandable language (English).
+Describes how an algorithm works through the use of everyday language.
+## Advantages/Disadvantages
 
-Types of pseudocode:
-- structured English
-- structured pseudocode
-
-Flowcharts are also important when it comes to representing computing processes.
-## Advantages and disadvantages of pseudocode
-Advantages:
-- readable
-- good for communication between programmers using other languages
-- easy to plan describe and communicate
-- easy to modify and trouble shoot logic (similar to rubber ducky)
-- easy to transform into actual code (subjective)
-Disadvantages:
-- lack of standards
-- few rules
-- potential ambiguity (*e.g. does "for x from 1 to 2" include 2?*)
-- more detail oriented
+| Advantages                                                       | Disadvantages                                                        |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------- |
+| readable                                                         | lack of standards                                                    |
+| good for communication between programmers using other languages | few rules                                                            |
+| easy to plan, describe and communicate                           | ambiguity within syntax (*e.g. does "For x from 1 to 2" include 2?*) |
+| easy to modify and troubleshoot logic                            |                                                                      |
+| easy to transform into actual code (subjective)                  |                                                                      |
 # Structured English
 Just normal English that describes steps in discrete instructions similar to code:
 ```
@@ -92,7 +83,7 @@ Function functName (inputs)
 End Function
 ```
 
-Call a function by
+Calling a function
 ```
 functName()
 ```

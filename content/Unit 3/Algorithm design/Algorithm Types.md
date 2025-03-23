@@ -7,7 +7,6 @@ because it priorities the best options for each action individually not the best
 A greedy algorithm will be optimal if the problem satisfies two properties:
 - **Optimal Substructure**: The optimal solution consists of optimal solutions to its subproblems
 - **Greedy Choice Property**: An optimal solution can be found by choosing the locally optimal solutions. Making a locally optimal choice does not prevent finding the optimal solution.
-
 ## Decrease-and-Conquer
 Decrease and Conquer algorithms make the problem smaller by reducing the problem at each iteration. 
 It differs from divide and conquer as it reduces problem size by reduction instead of division. Reduces problem by constant amount or variable amount. 

@@ -5,9 +5,6 @@ A greedy algorithm where, given a source node and a weighted graph, returns the 
 	- [[Bellman-Ford algorithm]] should be used if negative weights are present, provided there are no [[Negative weight cycle|negative weight cycles]].
 ## Abstract
 Keep a list of all unvisited nodes and the distances from each node to the initial node. Repeatedly visit an unvisited node with the shortest distance to the source node. If traversing through the unvisited node results in an existing node being closer to the source node, update the distance.
-
-
-
 ## Performance
 - Time complexity: $O(|E|\log|V|)$
 ## Visualisation

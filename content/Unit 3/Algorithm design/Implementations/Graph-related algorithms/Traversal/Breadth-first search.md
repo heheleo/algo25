@@ -1,7 +1,6 @@
 ---
 ali: BFS
 ---
-
 Searches all nodes at the current depth before moving to the next depth level. Abbreviated BFS.
 
 Layer/depth describe 'levels', the source node is labeled level 0, neighbours of the source node are labeled level 1, and so on.
