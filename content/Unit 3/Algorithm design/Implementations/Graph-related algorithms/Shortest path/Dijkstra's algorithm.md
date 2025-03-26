@@ -4,7 +4,18 @@ A greedy algorithm where, given a source node and a weighted graph, returns the 
 - ==edge weights must be nonnegative==
 	- [[Bellman-Ford algorithm]] should be used if negative weights are present, provided there are no [[Negative weight cycle|negative weight cycles]].
 ## Abstract
-Keep a list of all unvisited nodes and the distances from each node to the initial node. Repeatedly visit an unvisited node with the shortest distance to the source node. If traversing through the unvisited node results in an existing node being closer to the source node, update the distance.
+Keep a list of all unvisited nodes and the distances from each node to the initial node. 
+Repeatedly visit an unvisited node  with the shortest distance to the source node. 
+Then it repeatedly attempts the process of ==**expansion**==. The algorithm checks if using the current node as an intermediary (pit stop), will result in a quicker path to it's neighbors. If it does result in a faster path, set distance to the neighbor node as the new shorter distance.
+
+##### Expansion
+For source node $O$, current node $U$, and neighbor node $V$.
+If  $O\to U\to V$ faster than $O\to V$:
+	set value of $O\to V$ to be the distance of $O\to U\to V$
+
+
+
+
 ## Performance
 - Time complexity: $O(|E|\log|V|)$
 ## Visualisation
