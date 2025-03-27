@@ -165,16 +165,16 @@ If  $O\to U\to V$ faster than $O\to V$:
 let $D(a,b)$ represent the shortest distance from node $a$ to node $b$ that the algorithm has found so far.
 let $realD(a,b)$ represent the actual shortest distance from node $a$ to node $b$.
 Let $P(n)$ be the statement that Dijkstra's gives the correct shortest path for a graph with $n$ nodes.
-Let $n_{1}$ be starting node
+Let $n_{1}$ be starting node.
 ### Prove $P(1)$
 Let there be a graph with a singular node $n_{1}$
 $$D(n_{1},n_{1})=0=realD(n_{1},n_{1})$$
 Thus $P(1)$ is true.
 
-### Assume $P(k)$ is True.
+### Assume $P(k)$ is True
 $$\forall x \in [1,k], D(n_1,n_x)=realD(n_1,n_x)$$
-### Prove $P(k+1)$.
-For graph $G$ with $k+1$ nodes, when algorithm completes up to $k$-th iteration. 
+### Prove $P(k+1)$
+For graph $G$ with $k+1$ nodes, when algorithm completes up to $k$-th iteration.
 As $P(k)$ is assumed to be true:
 $$\forall x \in [1,k], D(n_1,n_x)=realD(n_1,n_x)$$
 
@@ -189,18 +189,19 @@ Need to prove $P(k+1)$ for this case.
 Need to prove the algorithm can find this longest 'shortest path'.
 Let $[n_{1},n_{2},n_{3},\dots,n_{k-1},n_{k},n_{k+1}]$ be a list of nodes, where $n_{1}$ is the source node, that represent the aforementioned longest possible 'shortest path' that runs along the diameter of the graph.
 
-After the $k$-th iteration, by our assumption of $P(n)$, $D(n_1,n_x)=realD(n_1,n_x)$  for all $x \in [1,k]$.
+After the $k$-th iteration, by our assumption of $P(n)$: $D(n_1,n_x)=realD(n_1,n_x)$  for all $x \in [1,k]$.
 
-Before the $(k+1)$-th iteration, $D(n_{1},n_{k+1}) = \infty$, and $D(n_{1},n_{k})=realD(n_{1},n_{k})$.
+Before the $(k+1)$-th iteration: $D(n_{1},n_{k+1}) = \infty$, and $D(n_{1},n_{k})=realD(n_{1},n_{k})$.
 
 During the $(k+1)$-th iteration:
 $$D(n_{1},n_{k+1}) := D(n_{1},n_{k+1}) + \text{weight of edge}( n_{(k+1)} \to n_{k})$$
 Thus by now $D(n_{1},n_{k+1})=realD(n_{1},n_{k+1})$.
 
 
-### Conclusion
+
 As such for a graph with $k+1$ nodes, by the $(k+1)$-th iteration, all paths consisting of $k$ or less edges would have been found and computed.
 $$\therefore \forall x \in [1,k+1], D(n_1,n_x)=realD(n_1,n_x)$$
 $$\therefore P(k+1) \text{ is True}$$
+### Conclusion
 $$\therefore \forall x \in \mathbf{N},D(n_1,n_x)=realD(n_1,n_x)$$
 $$\therefore \forall n \in \mathbf{N} ,P(n) \text{ is True}$$
