@@ -1,10 +1,11 @@
 ## Brute-force algorithm
 Checks all possible inputs for a solution. Brute-force algorithms will **always** find an optimal solution, albeit being very slow.
 ## Greedy algorithm
-Chooses the best option in the current state at every step. As it will make the best option at each step, it may end up with a less optimal solution overall 
+Chooses the best option in the current state at every step. As it will make the best option at each step, it may end up with a less optimal solution overall.
+Uses a heuristic function to decide the best option. The heuristic function is decided based on the particular real world problem context.
 Examples include [[Dijkstra's algorithm]]. 
 because it priorities the best options for each action individually not the best options for the entire problem. 
-A greedy algorithm will be optimal if the problem satisfies two properties:
+A greedy algorithm will be optimal and correct if the problem satisfies two properties:
 - **Optimal Substructure**: The optimal solution consists of optimal solutions to its subproblems
 - **Greedy Choice Property**: An optimal solution can be found by choosing the locally optimal solutions. Making a locally optimal choice does not prevent finding the optimal solution.
 ## Decrease-and-Conquer

@@ -1,13 +1,16 @@
-Given a weighted graph, return the shortest distances between every pair of vertices within the graph, where the graph can contain negative weights. It solves the *all-pair shortest path problem*.
+Given a weighted graph, return the shortest distances between every pair of nodes within the graph, where the graph can contain negative weights. It solves the *all-pair shortest path problem*.
 ## Restrictions
 - must be a [[Weighted graph|weighted graph]]
 	- weights can be negative
 - must not contain a [[Negative weight cycle|negative weight cycle]]
+- able to be used to determine [[transitive closure]]
 ## Abstract
 Operates by repeatedly lowering the distance between two nodes by checking if the shortest path between and involving an intermediate node is shorter. A good explanation is contained in this [YouTube video](https://www.youtube.com/watch?v=4OQeCuLYj-4).
+The $k$-th instance of the outermost loop represents the algorithm has found shortest distances out of all possible paths involving $k-1$ nodes or less.
+
 
 > [!note]- More details
-> The beauty behind this algorithm relies on its algorithmic technique, namely Dynamic Programming. We assume that all the vertices has an intermediate node, and we use every single vertex as an intermediate node one by one. When we consider a vertex, say $k$, we have considered vertices from 0 to $k-1$ already. Hence, we use the shortest path built by the previous vertices to build shorter paths with $k$ included.
+> The beauty behind this algorithm relies on its algorithmic technique, namely Dynamic Programming. We assume that all the nodes has an intermediate node, and we use every single node as an intermediate node one by one. When we consider a node, say $k$, we have considered nodes from 0 to $k-1$ already. Hence, we use the shortest path built by the previous nodes to build shorter paths with $k$ included.
 > 
 > The loop within the algorithm can be grossly simplified: if you can get from $i$ to $k$, then from $k$ to $j$ faster than from $i$ to $j$ through any path you've found so far, then the path from $i$ to $j$ through $k$ (the intermediate) becomes the new shortest path.
 ## Efficiency
@@ -103,3 +106,6 @@ Time complexity: $O(n^3)$
 >         print(distances[i][j], end=" ")
 >     print()
 > ```
+
+## Transitive closure
+
