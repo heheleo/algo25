@@ -20,4 +20,4 @@ In conclusion, BFS is an extremely powerful algorithm that does not need particu
 - Time complexity: $O(|V|+|E|)$ where $|V|$ is the number of [[Node|nodes]] and $|E|$ is the number of [[Edge|edges]]. This is because every vertex and every edge would be visited in the worst case scenario.
 - Space complexity: Maximum number of vertices in output list, and maximum number of vertices in visited list is $|V|$. Hence using $O(|V|)$ space complexity.
 ## Applications
-- Dijkstra's algorithm and Prim's algorithm is based on BFS.
+- [[Dijkstra's algorithm]] and [[Prim's Algorithm]] is based on BFS.
