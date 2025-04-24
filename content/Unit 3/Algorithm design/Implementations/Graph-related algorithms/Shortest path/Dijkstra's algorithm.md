@@ -1,4 +1,4 @@
-A greedy algorithm where, given a source node and a weighted graph, returns the shortest path from the source to all the other vertices in the given graph. It solves the *single source shortest path problem*.
+A **greedy** algorithm where, given a source node and a weighted graph, returns the shortest path from the source to all the other vertices in the given graph. It solves the *single source shortest path problem*.
 ## Restrictions
 - must be a [[Weighted graph|weighted graph]]
 - ==edge weights must be nonnegative==
@@ -178,7 +178,7 @@ For graph $G$ with $k+1$ nodes, when algorithm completes up to $k$-th iteration.
 As $P(k)$ is assumed to be true:
 $$\forall x \in [1,k], D(n_1,n_x)=realD(n_1,n_x)$$
 
-If number of edges in diameter of $G$  is less than $k$ or if $n_{1}$ not one of the endpoints of the diameter; the longest possible 'shortest path' consists of less than $k$ edges. Then the shortest distances would have already been found, and would not be affected by further calculations.
+If number of edges in diameter of $G$  is less than $k$ or if $n_{1}$ not one of the endpoints for any diameter; the longest possible 'shortest path' consists of less than $k$ edges. Then the shortest distances would have already been found, and would not be affected by further calculations.
 
 Thus $P(k+1)$ is True given above condition.
 

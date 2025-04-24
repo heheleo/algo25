@@ -1,6 +1,10 @@
 ## Brute-force algorithm
 Checks all possible inputs for a solution. Brute-force algorithms will **always** find an optimal solution, albeit being very slow.
 ## Greedy algorithm
+
+^29d51f
+
+
 Chooses the best option in the current state at every step. As it will make the best option at each step, it may end up with a less optimal solution overall.
 Uses a heuristic function to decide the best option. The heuristic function is decided based on the particular real world problem context.
 Examples include [[Dijkstra's algorithm]]. 

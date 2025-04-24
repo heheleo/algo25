@@ -1,8 +1,13 @@
 #TODO #A
-PageRank is an algorithm used to rank web pages. PageRank was designed and is used by Google. PageRank outputs the probability that a person randomly clicking on links in web pages will arrive at a particular page, and so the sum of PageRank of all web pages is equal to 1. If the imaginary person reaches a webpage which has no outgoing links, they randomly go to any web page.
+PageRank is an algorithm used to rank web pages. PageRank was designed and is used by Google. PageRank outputs the probability that a person randomly clicking on links in web pages will arrive at a particular page, and so the sum of PageRank of all web pages is equal to 1. 
 
+#### Sink nodes
+If the imaginary person reaches a webpage which has no outgoing links (sink nodes), they randomly go to any web page (implemented by adding a directed edge from sink node to all other nodes, with equal probability).
+
+#### Dampening factor
 Additionally, PageRank takes into account that a person clicking links will eventually stop clicking. This probability that the person stops clicking, and then goes to another random web page is called the damping factor, represented as $d$.
 
+#### Formula
 The formula for the PageRank value of a node is 
 $$
 \text{PR}(n)=\frac{1-d}{N}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
@@ -13,6 +18,8 @@ The PageRank values are then repeatedly calculated until the values converge, gi
 
 For those that have done General Maths, PageRank can be thought of as a transition matrix, repeatedly multiplying a column vector where each value is $\frac{1}{\text{node count}}$, until the steady-state matrix is found.
 
+
+#### Implementation
 Python Implementation:
 ```python
 import networkx as nx

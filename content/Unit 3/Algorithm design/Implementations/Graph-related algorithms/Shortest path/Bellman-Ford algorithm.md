@@ -97,3 +97,26 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 > ```
 
 
+## Proof
+
+Let $BF(a,b)$ represent the shortest distance from node $a$ to node $b$ that the algorithm has found so far.
+Let $realD(a,b)$ represent the actual shortest distance from node $a$ to node $b$.
+Let $P(n)$ be the statement that Bellman-Ford gives the correct shortest path for a graph with $n$ nodes, given no negative cycles.
+Let $n_{1}$ be starting node.
+
+### Prove $P(1)$
+
+Let there be a graph with only node $n_{1}$.
+$$BF(n_{1},n_{1}) = 0=realD(n_{1},n_{1})$$
+$$\therefore P(1) \text{ is True}$$
+
+### Assume $P(k)$
+$$\forall x \in \mathbf{N},BF(n_{1},n_{x}) =realD(n_{1},n_{x})$$
+### Prove $P(k+1)$
+
+
+
+
+
+### Proof for ability to find negative cycle
+
