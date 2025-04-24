@@ -1,11 +1,10 @@
-Recursive, divide & conquer.
-Worst-case performance: $O(nlog(n))$ 
+A recursive, [[Algorithm types#Divide-and-conquer|divide-and-conquer]] sorting algorithm.
+## Time complexity
+Worst-case performance: $O(n\log(n))$ 
 
 ![[Merge-sort-example-300px.gif]]
-
-Merge sort operates by recursively splitting the list into half until it is divided into the smallest possible unit, then merging them together while sorting them.
-
-
+## Abstract
+Merge sort operates by recursively splitting the list into half until it is divided into the smallest possible unit, then merging them back together from the ground up through comparison.
 ## Implementation
 > [!note]- Python 3 (recursion)
 > ```python

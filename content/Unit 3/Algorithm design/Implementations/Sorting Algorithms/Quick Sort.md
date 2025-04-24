@@ -2,7 +2,7 @@
 aliases:
   - Pivot sort
 ---
-Recursive, divide & conquer.
+A recursive, [[Algorithm types#Divide-and-conquer|divide-and-conquer]] sorting algorithm.
 ## Visualisation
 ![[Quicksort-example.gif]]
 [Source](https://commons.wikimedia.org/wiki/File:Quicksort-example.gif)

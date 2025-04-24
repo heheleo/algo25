@@ -10,7 +10,7 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 
 > [!note]- Negative cycle detection abstract
 > 
-> The edge-updating section repeats $|V|-1$ times because the longest possible path without negative cycles in a graph is $|V|-1$ edges long, and so all possible paths can be accounted for in the algorithm. The negative cycle section works by checking if any distances can be lowered past the $|V|-1$th iteration, and if they can be, this indicates that there is a path longer than $|V|-1$ edges, and so there must be a negative cycle.
+> The edge-updating section repeats $|V|-1$ times because the longest possible path without negative cycles in a graph is $|V|-1$ edges long, and so all possible paths can be accounted for in the algorithm. The negative cycle section works by checking if any distances can be lowered past the ($|V|-1$)th iteration, and if they can be, this indicates that there is a path longer than $|V|-1$ edges, and so there must be a negative cycle.
 
 > [!note]- Implementation details
 > First, create a variable that stores one "distance" value for every node. Assign the starting node a distance of zero, this is what will refer to as the Origin or node $O$. Assign all other "distance" values to be infinite.

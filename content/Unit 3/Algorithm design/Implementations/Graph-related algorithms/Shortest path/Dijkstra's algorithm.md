@@ -6,17 +6,7 @@ A **greedy** algorithm where, given a source node and a weighted graph, returns 
 ## Abstract
 Keep a list of all unvisited nodes and the distances from each node to the initial node. 
 Repeatedly visit an unvisited node  with the shortest distance to the source node. 
-Then it repeatedly attempts the process of ==**expansion**==. The algorithm checks if using the current node as an intermediary (pit stop), will result in a quicker path to it's neighbors. If it does result in a faster path, set distance to the neighbor node as the new shorter distance.
-
-##### Expansion
-For source node $O$, current node $U$, and neighbor node $V$.
-If  $O\to U\to V$ faster than $O\to V$:
-	set value of $O\to V$ to be the distance of $O\to U\to V$
-
-
-
-
-
+Then it repeatedly attempts the process of ==**expansion**==. The algorithm checks if using the current node as an intermediary (pit stop), will result in a quicker path to it's neighbours. If it does result in a faster path, it will set the distance to the neighbour node through the intermediary as the new shorter distance.
 ## Performance
 - Time complexity: $O(|E|\log|V|)$
 ## Visualisation

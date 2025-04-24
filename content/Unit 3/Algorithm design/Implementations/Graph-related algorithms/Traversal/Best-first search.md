@@ -5,4 +5,5 @@ This is a type of algorithm.
 ## Examples
 - [[A(star) Search Algorithm]]
 - beam search (not in SD)
-- [[Algorithm Types#^Greedy algorithm|Greedy algorithm]]
+## Heuristics
+Whilst searching for the next best possible option, rankings of the option to select can be done by using a **heuristic function**. This can be based on the nearest neighbour, the best direction, or a combination of functions. The heuristic function can be denoted $f(n)$, and is sometimes called an *evaluation function*.
