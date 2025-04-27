@@ -10,9 +10,12 @@ Additionally, PageRank takes into account that a person clicking links will even
 #### Formula
 The formula for the PageRank value of a node is 
 $$
-\text{PR}(n)=\frac{1-d}{N}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
+\text{PR}(n)=\frac{1-d}{|N|}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
 $$
-where $N$ is the total number of nodes in the graph, $V_n$ is the set of nodes in the graph that link to $n$, and $\text{L}(n)$ is the number of outgoing links of u.
+Where
+- $|N|$ is the total number of nodes in the graph
+- $V_n$ is the set of nodes in the graph that link to $n$
+- $\text{L}(u)$ is the number of outgoing links of $u$
 
 The PageRank values are then repeatedly calculated until the values converge, giving the final PageRank values.
 
