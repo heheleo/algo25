@@ -51,7 +51,7 @@ Key knowledge
 - specification, correctness and limitations of the following graph algorithms:
 	- [[Prim's Algorithm]] for computing the minimal spanning tree of a graph
 	- [[Dijkstra's algorithm]] and the [[Bellman-Ford algorithm]] for the single-source shortest path problem
-	- the [[Floyd-Warshall algorithm]] algorithm for the all-pairs shortest path problem and its application to the [[transitive closure]] problem
+	- the [[Floyd-Warshall algorithm]] algorithm for the all-pairs shortest path problem and its application to the [[Transitive Closure]] problem
 	- the [[PageRank]] algorithm for estimating the importance of a node based on its links
 - induction and contradiction as methods for demonstrating the correctness of simple iterative and recursive algorithms
 Key skills 

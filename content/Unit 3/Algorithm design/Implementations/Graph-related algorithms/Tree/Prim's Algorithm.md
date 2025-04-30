@@ -1,4 +1,4 @@
-A greedy algorithm that finds a minimum spanning tree of an undirected weighted graph. 
+A [[Algorithm types#Greedy algorithm|greedy algorithm]] that finds a [[Minimum spanning tree|minimum spanning tree]] of an [[Undirected graph|undirected]] [[Weighted graph|weighted graph]]. 
 ## Abstract
 Prim's Algorithm operates by creating an empty tree, adding the edge with the lowest weight that connects a new vertex to the tree, then repeating the process until the tree connects all vertices of the original graph.
 ## Visualisation

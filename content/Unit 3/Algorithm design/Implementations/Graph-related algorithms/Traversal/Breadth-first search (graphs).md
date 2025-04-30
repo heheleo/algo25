@@ -1,7 +1,7 @@
-Recall [[Breadth-first search|BFS]] to for the basic idea.
+Recall [[Breadth-first search|BFS]] for the general algorithm details.
 ## Differences compared to [[Breadth-first search (trees)|BFS for trees]]
 - a visited array is required.
-- there will not be a root node, instead, a given source must me.
+- there will not be a root node, as such, a given source node must be provided.
 ## Visualisation
 ![[breadth_first_search_1.gif|250]]
 ![[Pasted image 20250228102151.png|250]]

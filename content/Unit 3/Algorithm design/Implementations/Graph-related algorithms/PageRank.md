@@ -1,5 +1,4 @@
-#TODO #A
-PageRank is an algorithm used to rank web pages. PageRank was designed and is used by Google. PageRank outputs the probability that a person randomly clicking on links in web pages will arrive at a particular page, and so the sum of PageRank of all web pages is equal to 1. 
+PageRank is an algorithm used to rank web pages. PageRank was designed and used by Google. PageRank outputs the probability that a person randomly clicking on links in web pages will arrive at a particular page, and so the sum of PageRank of all web pages is equal to 1. 
 
 #### Sink nodes
 If the imaginary person reaches a webpage which has no outgoing links (sink nodes), they randomly go to any web page (implemented by adding a directed edge from sink node to all other nodes, with equal probability).
