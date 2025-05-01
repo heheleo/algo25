@@ -3,7 +3,7 @@ Given a weighted graph, return the shortest distances between every pair of node
 - must be a [[Weighted graph|weighted graph]]
 	- weights can be negative
 - must not contain a [[Negative weight cycle|negative weight cycle]]
-- able to be used to determine [[transitive closure]]
+- able to be used to determine [[Transitive Closure]]
 ## Abstract
 Operates by repeatedly lowering the distance between two nodes by checking if the shortest path between and involving an intermediate node is shorter. A good explanation is contained in this [YouTube video](https://www.youtube.com/watch?v=4OQeCuLYj-4).
 The $k$-th instance of the outermost loop represents the algorithm has found shortest distances out of all possible paths involving $k-1$ nodes or less.
@@ -106,57 +106,24 @@ Time complexity: $O(n^3)$
 >         print(distances[i][j], end=" ")
 >     print()
 > ```
-
-## Transitive closure
-
-
-
-
 ## Proof
-Assuming input data complies with conditions for Floyd Warshall algorithm.
-Below is a proof by induction.
 
-Assign integers starting from 1 onwards to represent each node of the graph. Nodes will subsequently referred to by $n_x$, where x is the aforementioned integer.
-
-Let `distFW` represent the $|N|$ by $|N|$ matrix outputted by the Floyd Warshall algorithm
-Such that `distFW[i,j]` represent the shortest distance from node $n_{i}$ to node $n_{j}$ found by the Floyd Warshall algorithm.
-Let `distREAL` be similarly defined, except representing the actual shortest distance between any two nodes.
-
-`distFW` is to be initialized as the [[weight matrix]] of the graph to be solved.
-
-Let $P(n)$ be the statement that: after running the outer loop of the algorithm $n$ times, the algorithm will have found all shortest paths where the shortest path only consists of nodes within $[n_{1},n_{2},\dots,n_{n}]$.
-
-#### Prove $P(1)$
-Algorithm runs 1 time, values of $k$ (the iterable of the outer for loop of Floyd Warshall) include only 1.
-
-When $k=1$:
-
-If going from $n_i$ to $n_j$ via node $n_1$ (is $n_{i} \to n_{1} \to n_{{j}}$) is less than the current distance between $n_i$ and $n_j$ , the statement `dist[i,1]`+`dist[1,j]` < `dist[i,j]` will be true, and `dist[i,j]` will be updated to the new value of `dist[i,1]`+`dist[1,j]`.
-
-If going via $n_1$ is slower, the statement `dist[i,1]`+`dist[1,j]` < `dist[i,j]` will not be true, and thus `dist[i,j]` will not be updated.
-
-Thus for all paths involving no or only $n_1$ intermediary nodes, the Floyd Warshall algorithm will always provide the correct distance of the correct shortest path.
-
-#### Assume $P(h)$
-It is assumed that, for all paths that only involves no intermidary nodes, or only intermediary nodes $[n_{1},n_{2},\dots,n_{h}]$
-
-
----
-Assuming all the correct pre-conditions exist for the Floyd Warshall All Pairs Shortest Path algorithm the following is a proof by induction. 
-
-All the nodes in the graph are given consecutive and unique integer identifiers and a matrix of |V| by |V| is used to maintain the solution. 
-
-After the initialisation when k=0 we have the dist[u,v] initialised as a simple adjacency matrix showing the direct edge weights between any pairs of nodes u and v. All other node pairs without direct edges are initialised with infinity. 
-
-Base Case: When k=1 if going via node k=1 is less than the current distance between nodes numbered i and j, which is i-->1-->j will be reduce the distance by since the condition dist[i,1]+dist[1,j] < dist[i,j] will be true since nodes i and j do not have a direct edge connecting them, but are connected via node k=1. 
-
-Inductive Step: Suppose for (k-1) passes all distances via nodes 1..(k-1) have been updated correctly for the outer loop of the triple nested loop in the FW algorithm and that dist[i,j] contains the shortest distance from node I to node j where the intermediate vertices lie within {1……(k-1)} of the graph. 
-
-On the kth iteration of the outer triple nested loop of the FW algorithm there are two possibilities. 
-
-- Case 1: dist[i,j] will remain unchanged as going via node k if a path exists is not cheaper, so the cheaper distance is retained 
-    
-- Case 2: dist[i,j] will reduce in distance as going via node k is cheaper i-->k, k-->j than what was already explored with i-->(k-1),(k-1)-->j 
-    
-
-As k is incremented from 1 to |V| we have then relaxed all the edges from i to j via node k where a path exists. We explored all the i-->k, k-->j paths in the graph, so FW gives the correct answer for the whole graph G.
+> [!summary]- Proof  
+> Assuming all the correct pre-conditions exist for the Floyd Warshall All Pairs Shortest Path algorithm the following is a proof by induction. 
+> 
+> All the nodes in the graph are given consecutive and unique integer identifiers and a matrix of |V| by |V| is used to maintain the solution. 
+> 
+> After the initialisation when k=0 we have the dist[u,v] initialised as a simple adjacency matrix showing the direct edge weights between any pairs of nodes u and v. All other node pairs without direct edges are initialised with infinity. 
+> 
+> Base Case: When k=1 if going via node k=1 is less than the current distance between nodes numbered i and j, which is i-->1-->j will be reduce the distance by since the condition dist[i,1]+dist[1,j] < dist[i,j] will be true since nodes i and j do not have a direct edge connecting them, but are connected via node k=1. 
+> 
+> Inductive Step: Suppose for (k-1) passes all distances via nodes 1..(k-1) have been updated correctly for the outer loop of the triple nested loop in the FW algorithm and that dist[i,j] contains the shortest distance from node I to node j where the intermediate vertices lie within {1……(k-1)} of the graph. 
+> 
+> On the kth iteration of the outer triple nested loop of the FW algorithm there are two possibilities. 
+> 
+> - Case 1: dist[i,j] will remain unchanged as going via node k if a path exists is not cheaper, so the cheaper distance is retained 
+>     
+> - Case 2: dist[i,j] will reduce in distance as going via node k is cheaper i-->k, k-->j than what was already explored with i-->(k-1),(k-1)-->j 
+>     
+> 
+> As k is incremented from 1 to |V| we have then relaxed all the edges from i to j via node k where a path exists. We explored all the i-->k, k-->j paths in the graph, so FW gives the correct answer for the whole graph G.

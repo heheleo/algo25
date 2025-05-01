@@ -23,6 +23,7 @@ $$
 ## Example
 Given an undirected graph:
 ![[Pasted image 20250214195339.png]]
+
 The incidence matrix is:
 ![[Pasted image 20250214195358.png]]
 
