@@ -87,3 +87,6 @@ Calling a function
 ```
 functName()
 ```
+
+
+### Examples

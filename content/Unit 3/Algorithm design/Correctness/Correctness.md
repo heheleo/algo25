@@ -1,0 +1,1 @@
+An [[algorithm]] is correct if and only if said algorithm ultimately terminates and gives a output that satisfies all requirements for ANY and EVERY valid potenial input.

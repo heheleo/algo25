@@ -21,3 +21,19 @@ def prim(graph: nx.Graph) -> nx.Graph:
         tree.add_edge(edges[0][0], edges[0][1], weight=edges[0][2]['weight'])
     return tree
 ```
+
+
+
+## Proof by Induction
+
+let Tn represent prim is corerct for n nodes
+
+
+T1, one node, true
+assume Tn
+Tn+1
+additional node is processed correctly for all cases
+
+
+
+![[Pasted image 20250501171200.png]]
