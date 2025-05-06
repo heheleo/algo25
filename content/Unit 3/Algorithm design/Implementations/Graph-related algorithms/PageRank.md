@@ -14,6 +14,20 @@ Where
 - $\text{L}(u)$ is the number of outgoing links of $u$
 - $d$ represents the damping factor.
 
+one can break down the function into: 
+$$
+\text{PR}(n)=(1-d)\frac{1}{|N|}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
+$$
+
+
+- $\frac{1-d}{|N|}$ is chance one initially arrives at page ($\frac{1}{|N|}$), and decides to stay ($1-d$)
+- $d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)}) = (\sum_{u\in V_{n}} d \frac{\text{PR}(u)}{\text{L}(u)})$
+	- $d \frac{\text{PR}(u)}{\text{L}(u)}$ is the product of the probability of following events 
+		- chance someone happens to be on page $u$ ($PR(u)$)
+		- decides to leave the page ($d$)
+		- and happens to come to page $n$ ($\frac{1}{\text{L}(u)}$)
+
+
 The PageRank values are then repeatedly calculated until the values converge, giving the final PageRank values.
 
 For those that have done General Maths, PageRank can be thought of as a transition matrix, repeatedly multiplying a column vector where each value is $\frac{1}{\text{node count}}$, until the steady-state matrix is found.
