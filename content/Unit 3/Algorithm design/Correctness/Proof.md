@@ -23,6 +23,10 @@ $P'$ states that $A$ is true **and** $B$ is false ($P': A \land B'$)
 (De Morgan's laws)
 
 Thus show that if one assumes $A$ is true and $B$ is false, they will arrive at a contradiction.
+
+Loop invariance is **a condition that is true at the beginning and end of every iteration of a loop**.
+Can be used in proofs.?
+Case $P(k-1)$ is correct, show $P(k)$?
 ## Proof Examples
 
 #### Induction
@@ -34,4 +38,4 @@ See proof of correctness for:
 
 #### Contradiction
 - [[Pigeon hole principle]]
-- 
+- [[DAG source]] (to be completed)
