@@ -154,7 +154,11 @@ Then it repeatedly attempts the process of ==**expansion**==. The algorithm chec
 
 let $D(a,b)$ represent the shortest distance from node $a$ to node $b$ that the algorithm has found so far.
 let $realD(a,b)$ represent the actual shortest distance from node $a$ to node $b$.
+
 Let $P(n)$ be the statement that Dijkstra's gives the correct shortest path for a graph with $n$ nodes.
+
+$$P(n): \forall i,j \in [1,n], \; D(n_{i},n_{j})=realD(n_{i},n_{j})$$
+
 Let $n_{1}$ be starting node.
 ### Prove $P(1)$
 Let there be a graph with a singular node $n_{1}$

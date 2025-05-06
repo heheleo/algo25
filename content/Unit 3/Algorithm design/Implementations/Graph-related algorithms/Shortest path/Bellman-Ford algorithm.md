@@ -103,22 +103,63 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 
 Let $BF(a,b)$ represent the shortest distance from node $a$ to node $b$ that the algorithm has found so far.
 Let $realD(a,b)$ represent the actual shortest distance from node $a$ to node $b$.
-Let $P(n)$ be the statement that Bellman-Ford gives the correct shortest path for a graph with $n$ nodes, given no negative cycles.
-Let $n_{1}$ be starting node.
 
-### Prove $P(1)$
+Let $P(n)$ be the statement that the results that Bellman-Ford gives after $n$ amount of outer loops, resolves shortest paths consisting of $n$ or less edges, and thus resolves a graph of $n+1$  nodes
 
-Let there be a graph with only node $n_{1}$.
-$$BF(n_{1},n_{1}) = 0=realD(n_{1},n_{1})$$
-$$\therefore P(1) \text{ is True}$$
 
+
+### Prove $P(0)$
+No edges, $P(0)$ is true by default
 ### Assume $P(k)$
-$$\forall x \in \mathbf{N},BF(n_{1},n_{x}) =realD(n_{1},n_{x})$$
+
+After $k$ outer loops, for all reachable end nodes, the algorithm has selected the shortest path out of paths of $k$ or less edges.  
+A graph of $k+1$  nodes will have been fully resolved. 
+
+
 ### Prove $P(k+1)$
+
+$P(k+1)$ requires resolution of a graph with $k+2$ or less nodes.
+
+The only nodes not resolved are end nodes where the shortest path consists of $k+1$ edges.
+
+let $n_x$ represent any node with a shortest path of $x$ edges
+
+As graph is connected, paths to these nodes can be represented as a family of the following path
+$$n_{\text{start}} \to
+\dots \to n_{k} \to n_{k+1}
+$$
+Where $n_{k}$ is the node immediately before the target node $n_{k+1}$ in that path.
+As shortest path to $n_k$ nodes consists of $k$ edges, they would have already been resolved.
+
+As per the function, all edges of graph are once again looped over. 
+All nodes with shortest path of $k$ or less edges would have already been found, and thus will not accept another detour.
+Thus all $n_k \to n_{k+1}$ edges are the only edges that could change shortest distances.
+
+The shortest path from $n_{\text{start}}$ to $n_{k+1}$ through $n_k$ = the shortest path from  $n_{\text{start}}$ to $n_{k}$  + $n_k \to n_{k+1}$ edge.
+Thus the $k+1$th loop, for each $n_{k+1}$ node, finds all shortest distances to the target node going through each $n_k$ option, and only updates the distance with the shortest one found.
+
+Thus algorithm finds the correct shortest path for all $n_{k+1}$ nodes in $k+1$ loops, resolving a graph with $k+2$ nodes.
+
+
+
+
+
+
+
+Following the code, during this loop:
+We check all edges, seeing if using it as a detour results in a shorter path to its end node.
 
 
 
 
 
 ### Proof for ability to find negative cycle
+
+By the time outer loop of algorithm has ran $|N|-1$ times. All shortest paths consisting of $|N|-1$ or less edges have been found.
+
+Thus by looping again (the $|N|$th time), we see if there is a shortest path consisting of $|N|$ edges, a path that touches $|N|+1$ nodes (including start and nodes).
+There are $|N|$ nodes, thus at least one node has been visited twice ([[Pigeon hole principle]]), as such a cycle must exist, as it is the only way to visit a node twice.
+This implies that going through the same path with the loop, has a lower total weight than going the same path without the loop.
+Thus it can be derived that the overall weight of the loop is negative, thus negative loop.
+
 
