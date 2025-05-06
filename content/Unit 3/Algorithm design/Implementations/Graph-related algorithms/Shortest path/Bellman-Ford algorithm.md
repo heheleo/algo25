@@ -37,7 +37,7 @@ Given a source node and a weighted graph, returns the shortest path from the sou
 > def bellman_ford(graph: nx.DiGraph, start) -> dict:
 >     node_distances = {node: float('inf') for node in graph.nodes}
 >     node_distances[start] = 0
->     for _ in range(len(graph.edges)-1):
+>     for _ in range(len(graph.nodes)-1):
 >         for edge in graph.edges:
 >             if node_distances[edge[0]] + graph.edges[edge]['weight'] < node_distances[edge[1]]:
 >                 node_distances[edge[1]] = node_distances[edge[0]] + graph.edges[edge]['weight']
