@@ -136,18 +136,13 @@ All nodes with shortest path of $k$ or less edges would have already been found,
 Thus all $n_k \to n_{k+1}$ edges are the only edges that could change shortest distances.
 
 The shortest path from $n_{\text{start}}$ to $n_{k+1}$ through $n_k$ = the shortest path from  $n_{\text{start}}$ to $n_{k}$  + $n_k \to n_{k+1}$ edge.
+
 Thus the $k+1$th loop, for each $n_{k+1}$ node, finds all shortest distances to the target node going through each $n_k$ option, and only updates the distance with the shortest one found.
+
+Longest possible acyclic path = $|N|-1$ = $k+1$  for a graph of $k+2$ edges, thus by now all possible acyclic shortest paths have been found 
 
 Thus algorithm finds the correct shortest path for all $n_{k+1}$ nodes in $k+1$ loops, resolving a graph with $k+2$ nodes.
 
-
-
-
-
-
-
-Following the code, during this loop:
-We check all edges, seeing if using it as a detour results in a shorter path to its end node.
 
 
 
