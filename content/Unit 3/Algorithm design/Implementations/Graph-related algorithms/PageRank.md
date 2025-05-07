@@ -20,11 +20,11 @@ $$
 $$
 
 
-- $\frac{1-d}{|N|}$ is chance one initially arrives at page ($\frac{1}{|N|}$), and decides to stay ($1-d$)
+- $\frac{1-d}{|N|}$ is chance one clicks off their page ($1-d$) and randomly arrives at page $n$ ($\frac{1}{|N|}$) 
 - $d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)}) = (\sum_{u\in V_{n}} d \frac{\text{PR}(u)}{\text{L}(u)})$
 	- $d \frac{\text{PR}(u)}{\text{L}(u)}$ is the product of the probability of following events 
 		- chance someone happens to be on page $u$ ($PR(u)$)
-		- decides to leave the page ($d$)
+		- decides to continue browsing through a hyperlink on $u$ ($d$)
 		- and happens to come to page $n$ ($\frac{1}{\text{L}(u)}$)
 
 
