@@ -43,7 +43,7 @@ Key knowledge
 - programming language constructs that directly correspond to pseudocode concepts
 - conditional expressions using the logical operations of AND, OR, NOT
 	- [[Boolean algebra]]
-- recursion and iteration and their uses in algorithm design
+- [[|recursion]] and iteration and their uses in algorithm design
 - modular design of algorithms and ADTs
 - characteristics and suitability of the brute-force search and greedy algorithm design patterns
 - graph traversal techniques, including breadth-first search and depth-first search
