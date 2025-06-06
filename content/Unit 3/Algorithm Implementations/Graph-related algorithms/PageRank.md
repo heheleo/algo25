@@ -1,8 +1,10 @@
-PageRank is an algorithm used to rank web pages. PageRank is designed and used by Google. PageRank outputs a probability distribution used to represent the likelihood that a person randomly clicking on links will arrive at any particular page, and so the sum of PageRank of all web pages is equal to 1. The underlying assumption is that more important websites are likely to receive more links from other websites.
+PageRank is an algorithm used to rank web pages. PageRank outputs a probability distribution used to represent the likelihood that a person randomly clicking on links will arrive at any particular page. The underlying assumption is that more important websites are likely to receive more links from other websites.
+## Properties
+- sum of the PageRank value of all web pages is equal to 1
 ## Sink nodes
 If the imaginary person reaches a webpage which has no outgoing links (sink nodes), they randomly go to any web page (implemented by adding a directed edge from sink node to all other nodes, with equal probability).
 ## Damping factor
-PageRank takes into account that a person clicking links will eventually stop clicking. The probability, at any step, that the person will continue following links is the *damping factor* $d$. The probability that they instead just to any other random page is $1-d$. It is generally set around $0.85$, and is modelled around the average user using their browser's bookmark feature.[^1]
+PageRank takes into account that a person clicking links will eventually stop clicking. The probability, at any step, that the person will **continue following links** is the *damping factor* $d$. The probability that they instead just to any other random page is $1-d$. It is generally set around $0.85$.[^1]
 ## Formula
 The formula for the PageRank value of a node is 
 $$
@@ -14,24 +16,10 @@ Where
 - $\text{L}(u)$ is the number of outgoing links of $u$
 - $d$ represents the damping factor.
 
-one can break down the function into: 
-$$
-\text{PR}(n)=(1-d)\frac{1}{|N|}+d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)})
-$$
-
-
-- $\frac{1-d}{|N|}$ is chance one clicks off their page ($1-d$) and randomly arrives at page $n$ ($\frac{1}{|N|}$) 
-- $d(\sum_{u\in V_{n}}\frac{\text{PR}(u)}{\text{L}(u)}) = (\sum_{u\in V_{n}} d \frac{\text{PR}(u)}{\text{L}(u)})$
-	- $d \frac{\text{PR}(u)}{\text{L}(u)}$ is the product of the probability of following events 
-		- chance someone happens to be on page $u$ ($PR(u)$)
-		- decides to continue browsing through a hyperlink on $u$ ($d$)
-		- and happens to come to page $n$ ($\frac{1}{\text{L}(u)}$)
-
-
 The PageRank values are then repeatedly calculated until the values converge, giving the final PageRank values.
 
-For those that have done General Maths, PageRank can be thought of as a transition matrix, repeatedly multiplying a column vector where each value is $\frac{1}{\text{node count}}$, until the steady-state matrix is found.
-#### Implementation
+PageRank can also be described as a transition matrix, repeatedly multiplying a column vector where each value is $\frac{1}{\text{node count}}$, until the steady-state matrix is found.
+## Implementation
 
 > [!note]- Python Implementation 1
 > ```python

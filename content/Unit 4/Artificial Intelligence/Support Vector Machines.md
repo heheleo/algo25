@@ -1,4 +1,4 @@
-Support Vector Machines (SVMs) are supervised learning models that classify a set of data. SVMs aim to find the optimal hyperplane, which is a decision boundary separating the classes, such that the distance from the hyperplane to the nearest data point on each side is maximised. This hyperplane is called the maximum-margin hyperplane, and the classifier it produces is called the maximum-margin classifier. The data points closest to the decision boundary are called "support vectors".
+Supervised learning models that classify a set of data. SVMs aim to find the optimal hyperplane, which is a decision boundary separating the classes, such that the distance from the hyperplane to the nearest data point on each side is maximised. This hyperplane is called the maximum-margin hyperplane, and the classifier it produces is called the maximum-margin classifier. The data points closest to the decision boundary are called "support vectors".
 
 ![[sphx_glr_plot_separating_hyperplane_001.png]]
 
