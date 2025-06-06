@@ -38,7 +38,7 @@ Else
 End If
 ```
 ### FOR
-note, does not include the second number, goes  \[1:10)
+Note that var will take the values from 1 to 10, inclusive.
 ```
 For var = 1 to 10 do
 	...

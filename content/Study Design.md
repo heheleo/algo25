@@ -7,17 +7,11 @@ Key knowledge
 - signature specifications of ADTs using operator names, argument types and result types
 	- [[Abstract data type signature]]
 - specification and uses of the following ADTs:
-	- set, list, array, dictionary (associative array)
-		- [[Unit 3/Abstract data types/Types/Set|Set]], [[List]], [[Array]], [[Dictionary]]
-	- stack, queue, priority queue
-		- [[Stack]], [[Queue]], [[Priority queue]]
+	- [[Unit 3/Abstract data types/Types/Set|Set]], [[List]], [[Array]], [[Dictionary]] (associative array)]]
+	- [[Stack]], [[Queue]], [[Priority queue]]
 	- graphs, including undirected and directed graphs and unweighted and weighted graphs]]
 		- [[Graph]]
-- features of graphs, including paths, weighted path lengths, cycles and subgraphs
-	- [[Graph]]
-	- [[Path]]
-	- [[Weighted graph#Weighted path length]]
-	- [[Subgraph]]
+- features of [[Graph|graphs]], including [[Path|paths]], [[Weighted graph#Weighted path length|weighted path lengths]], [[Cycle|cycles]] and [[Subgraph|subgraphs]]
 - categories of graphs, including complete graphs, connected graphs, directed acyclic graphs and trees, and their properties
 	- [[Graph#Types]]
 		- [[Complete graph]]
@@ -38,12 +32,11 @@ Key skills
 ## AOS2 Algorithm design
 Key knowledge
 - basic structure of algorithms
-- pseudocode concepts, including variables and assignment, sequence, iteration, conditionals and functions
-	- [[Pseudocode]]
+- [[Pseudocode]] concepts, including variables and assignment, sequence, iteration, conditionals and functions
 - programming language constructs that directly correspond to pseudocode concepts
 - conditional expressions using the logical operations of AND, OR, NOT
 	- [[Boolean algebra]]
-- [[|recursion]] and iteration and their uses in algorithm design
+- Recursion and iteration and their uses in algorithm design
 - modular design of algorithms and ADTs
 - characteristics and suitability of the brute-force search and greedy algorithm design patterns
 - graph traversal techniques, including breadth-first search and depth-first search
@@ -54,6 +47,7 @@ Key knowledge
 	- the [[Floyd-Warshall algorithm]] algorithm for the all-pairs shortest path problem and its application to the [[Transitive Closure]] problem
 	- the [[PageRank]] algorithm for estimating the importance of a node based on its links
 - induction and contradiction as methods for demonstrating the correctness of simple iterative and recursive algorithms
+	- [[Proof#Proof by Induction]], [[Proof#Proof by Contradiction]]
 Key skills 
 - interpret pseudocode and execute it manually on given input
 - write pseudocode
@@ -70,6 +64,7 @@ that apply the methods of induction or contradiction
 ## AOS3 Applied algorithms
 Key knowledge
 - characteristics and applicability of ADTs and algorithm design patterns
+	- [[Abstract data type|ADT]]
 - suitability of ADTs and algorithm design patterns for a variety of problem contexts
 - combinations of ADTs to meet complex problem requirements
 - the application of algorithms to answering real-world problems
@@ -116,8 +111,8 @@ $$, where $a_{i} \in \mathbb{N}$
 ## AOS2: Advanced algorithm design
 Key knowledge
 - the binary search algorithm
-- divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort]] and [[Quick sort]]
-- [[dynamic programming]] algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
+- divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort|merge sort]] and [[Quick sort|quick sort]]
+- [[Dynamic programming]] algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
 - the application of [[heuristics]] and randomised search to overcoming the soft [[Limits of Computability|limits of computation]], including the limitations of these methods
 - [[hill climbing]] on heuristic functions, the A* algorithm and the simulated annealing algorithm

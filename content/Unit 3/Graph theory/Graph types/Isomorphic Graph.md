@@ -1,1 +1,1 @@
-A graph that satisfies [[Isomorphism|isomorphism]].
+A [[Graph|graph]] that satisfies [[Isomorphism|isomorphism]].
