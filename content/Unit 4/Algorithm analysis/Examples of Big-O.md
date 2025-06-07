@@ -26,6 +26,19 @@ for(int i = 1; i <= n; i = i * 3) {
 }
 ```
 
+```python
+x = 0
+y = 0
+
+i=1
+while i<=n:
+	x +=  5
+	x+=1
+	y *= y
+
+	i *= 3
+```
+
 > [!note]- Answer
 > Loop clearly does $O(1)$ work per iteration, so focus on how many iterations there will be. $i$ will take on values $1, 3, 9, 27, \dots, 3^k$ for some arbitrary iteration of the loop $k$. The loop stops when $i > n$. Hence, $3^k > n$, leading to the loop stopping when $k>\log_{3}n$. Therefore, the number of iterations is only $O(\log n)$.
 
@@ -33,6 +46,15 @@ for(int i = 1; i <= n; i = i * 3) {
 int y = 0;
 for(int j = 1; j*j <= n; j++)
 	y = y*y*50;
+```
+
+
+```python
+y = 0
+
+while j**2 <=n:
+	y = y*y*50
+	j++
 ```
 
 > [!NOTE]- Answer

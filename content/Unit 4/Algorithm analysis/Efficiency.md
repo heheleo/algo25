@@ -5,7 +5,7 @@ Note that complexity affects performance, but not vice versa.
 ## Basic operations
 Time required by a function is proportional to the number of basic operations it performs. Here is a non-exhaustive list:
 - arithmetic operation (e.g +, -)
-- assignment (x = 0)
+- assignment (x := 0)
 - comparison/test (x \=\= 0)
 - a read or a write
 ## Time complexity
