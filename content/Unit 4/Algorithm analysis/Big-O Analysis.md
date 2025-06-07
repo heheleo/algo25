@@ -11,7 +11,7 @@ We say that $f(n)=O(g(n))$ if there exists constants $c > 0$ and $n_{0} \geq 0$ 
 $$
 
 \Bigr[
-\exists  c > 0, \exists n_{0}\geq_{0}  
+\exists  c > 0, \exists n_{0}\geq 0 
 \text{ s.t }
 \bigl( 
   \forall n\geq n_{0}, \ c \cdot |g(n)| \geq |f(n)|
