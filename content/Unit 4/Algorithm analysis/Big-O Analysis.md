@@ -55,5 +55,20 @@ $$
 	- In other words, when combining complexities only the largest term dominates
 
 - product rule: if $f(n)=O(g(n))$ and $h(n)=O(k(n))$, then $f(n)h(n)=O(g(n)k(n))$
+
+
+### Relative size
+
+$$
+O(\log n)\leq \
+O(n)\leq \
+O(n \log n)\leq \
+O(n^2)\leq \
+O(n^3)\leq \
+O(2^n)\leq \
+O(n!)
+
+$$
+![[Pasted image 20250610170955.png]]
 ## Amortized time
 Amortized time instead focuses on the average time to run, rather than the worst-case performance of the algorithm. Amortized time is determined by dividing the total running time, by the number of operations and is expressed in Big-O notation. For example, if an algorithm run an arbitrary $n$ number of times runs in $O(n)$, then the amortized time is $O(n)/n=O(1)$.

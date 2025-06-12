@@ -116,7 +116,7 @@ Key knowledge
 - tree search by backtracking and its applications
 - the application of [[heuristics]] and randomised search to overcoming the soft [[Limits of Computability|limits of computation]], including the limitations of these methods
 - [[hill climbing]] on heuristic functions, the A* algorithm and the simulated annealing algorithm
-- the [[Graph Coloring Problem]], [[0-1 knapsack problem]] and [[travelling salesman problem]] and heuristic methods for solving them
+- the [[Graph Coloring Problem]], [[0-1 knapsack problem]] and [[Travelling Salesman Problem (TSP)]] and heuristic methods for solving them
 
 Key skills
 - apply the divide and conquer, dynamic programming and backtracking design patterns to design algorithms and recognise their usage within given algorithms

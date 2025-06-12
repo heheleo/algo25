@@ -8,5 +8,17 @@ Time required by a function is proportional to the number of basic operations it
 - assignment (x := 0)
 - comparison/test (x \=\= 0)
 - a read or a write
+
+## T(n)
+Counting these basic operations in terms of n results in $T(n$), or $T_n$
+Iteration, summation, telescoping, pattern.
+These are often represented as a series
+$$T_n=\dots T_{n+1}\dots\dots, \ T_{0}=\dots$$
+
+eg for recursion
+$$T(n)=a\cdot T(n-d)   +k, \ T_{0}=\dots$$
+- a is number of recursions per increase in input lengh
+- k is const actions
+
 ## Time complexity
 See [[Big-O Analysis]]

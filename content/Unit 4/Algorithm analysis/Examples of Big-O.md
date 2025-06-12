@@ -3,7 +3,7 @@ Always consider what happens when the worst case occurs.
 Running time is constant and is not dependent on the size of input. This includes:
 - loops that executes **a set amount** of times (including nested)
 	- for example, `for i in range(10)`
-- sequence of [[Efficiency#Basic operations|basic operations]]
+- sequence of [[Efficiency T(n)#Basic operations|basic operations]]
 - conditionals (if all cases take O(1))
 ## Common loops
 - non nested loops that executes based on input size: $O(n)$
