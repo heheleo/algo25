@@ -1,6 +1,13 @@
 Complexity Classes are sets of problems that are related in complexity. The complexity classes used in Algorithmics are for decision problems (given an input, the algorithm returns yes or no depending on some statement).
 ## P (Polynomial Time)
 P contains all decision problems that can be solved by a deterministic Turing machine in polynomial time. P is a subset of NP.
+
+
+$$
+T(n)=O(n^k),k \in { \mathbb{Z}^+ }
+$$
+
+
 ## NP (Non-deterministic Polynomial Time)
 NP contains all decision problems which are solvable by a non-deterministic Turing machine in polynomial time. An alternative definition is the set of decision problems where the answer can be verified in polynomial time. An unsolved question is whether P=NP, however it is generally believed that P≠NP.
 ## NP-Hard

@@ -7,3 +7,15 @@ Undecidable problems are problems for which it is impossible for there to be an 
 The soft limit of computability is reached when a problem can be solved, but requires an impractical number of resources (space or time) to be solved. Intractable problems reach the soft limit of computability.
 
 Intractable problems are problems that cannot be solved in polynomial time, and so grow rapidly compared to the input size. This makes them impractical to solve for large inputs.
+
+
+
+## Tractable problems
+A tractable problem is a problem that has a reasonable or [[Complexity Classes|polynomial]]-time complexity.
+There fore the most efficient algorithm to correctly solve the problem will have the time complexity:
+
+$$
+T(n)=O(n^k),k \in { \mathbb{Z}^+ }
+$$
+
+
