@@ -1,0 +1,1 @@
+Problems that can be solved in reasonable time, or has a [[Complexity Classes#P (Polynomial Time)|polynomial time complexity]]. Vice versa, intractable problems has an unreasonable or exponential-time complexity solution.

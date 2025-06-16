@@ -1,5 +1,4 @@
 The halting problem is a problem that asks, for an arbitrary computer program and input, is it possible to determine if the program will run forever or halt. It was proved that the halting problem is [[Limits of Computability#Hard Limit of Computability|undecidable]], meaning that it is impossible to create an algorithm that will determine if an arbitrary program will halt.
-
 ## Proof of undecidability
 The halting problem's undecidability was proved via contradiction. Assume that a program $H(P,I)$ exists, where $H$ is a program that always gives the solution to the halting problem, $P$ is the program to decide the halting program for, and $I$ is the input to $P$. Create a second program $C(X)$, where $X$ is the input program. $C(X)$ does the opposite of $H(X,X)$, i.e. if $H(X,X)$ says $X$ will halt on input $X$, then $C(X)$ will not halt.
 

@@ -1,8 +1,12 @@
-The knapsack problem is a problem that asks "Given a set of items, each with a weight and a value, determine which items to include in the collection so that the total weight is less than or equal to a given limit and the total value is as large as possible." The 0-1 knapsack problem is a version of the knapsack problem where each item can only be added once. Mathematically put, the 0-1 knapsack problem is put as:
-
+The knapsack problem is a problem that asks "Given a set of items, each with a weight and a value, determine which items to include in the collection so that the total weight is less than or equal to a given limit and the total value is as large as possible." The 0-1 knapsack problem is a version of the knapsack problem where each item can only be added once. 
+## Mathematical Representation
+Mathematically put, the 0-1 knapsack problem is:
 Given a set of items labelled 1 to $n$, where $x_i$ is the number of copies of the item, $w_i$ is the weight of the item, and $v_i$ is the value of the item, and $W$ is the weight limit of the knapsack,
 $$
 \text{Maximise }\sum_{i=1}^nv_ix_i\text{ where }\sum_{i=1}^nw_ix_i\leq W\text{ and }x_i\in\{0,1\}
 $$
-
+## Complexity Class
 The 0-1 knapsack problem is [[Complexity Classes#NP-Complete|NP-Complete]], and so currently there are no known polynomial-time solutions to the problem.
+## Solutions
+- Brute force yields $O(2^n)$ time complexity.
+- Dynamic programming yields the optimal solution, which is $O(nW)$, where $n$ is the number of items and $W$ is the backpack capacity.

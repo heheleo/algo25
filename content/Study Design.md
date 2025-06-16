@@ -94,6 +94,7 @@ O(n^{\log_{b}(a)}) & a > b^c
 \end{cases}$$
 - examples and common features of algorithms that have time complexities of $O(1), O(\log n), O(n), O(n\log n), O(n^{2}), O(n^3), O(2^n)$, and $O(n!)$.
 - the concept of the P, NP, NP-Hard and NP-Complete time complexity classes for problems
+	- [[Complexity Classes]]
 - consequences of combinatorial explosions and indicators for them
 - the feasibility of NP-Hard problems in real-world contexts
 
@@ -114,8 +115,8 @@ Key knowledge
 - divide and conquer algorithms that have linear time divide and merge steps, including [[Merge sort|merge sort]] and [[Quick sort|quick sort]]
 - [[Dynamic programming]] algorithms that require no more than a single dimension array for storage, including the Fibonacci numbers and change-making problem
 - tree search by backtracking and its applications
-- the application of [[heuristics]] and randomised search to overcoming the soft [[Limits of Computability|limits of computation]], including the limitations of these methods
-- [[hill climbing]] on heuristic functions, the A* algorithm and the simulated annealing algorithm
+- the application of [[Heuristics]] and randomised search to overcoming the soft [[Limits of Computability|limits of computation]], including the limitations of these methods
+- [[Hill climbing]] on heuristic functions, the [[A(star) Search Algorithm|A* algorithm]] and the [[Simulated Annealing|simulated annealing]] algorithm
 - the [[Graph Coloring Problem]], [[0-1 knapsack problem]] and [[Travelling Salesman Problem (TSP)]] and heuristic methods for solving them
 
 Key skills
