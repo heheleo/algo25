@@ -1,0 +1,1 @@
+A property of an algorithm loop that is true before and after each iteration.
