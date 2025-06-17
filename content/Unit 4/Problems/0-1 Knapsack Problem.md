@@ -9,4 +9,40 @@ $$
 The 0-1 knapsack problem is [[Complexity Classes#NP-Complete|NP-Complete]], and so currently there are no known polynomial-time solutions to the problem.
 ## Solutions
 - Brute force yields $O(2^n)$ time complexity.
-- Dynamic programming yields the optimal solution, which is $O(nW)$, where $n$ is the number of items and $W$ is the backpack capacity.
+- Dynamic programming yields the optimal solution in $O(nW)$ time, where $n$ is the number of items and $W$ is the backpack capacity.
+
+> [!note]- Solver for the Knapsack problem (Dynamic Programming)
+> ```python
+> def knapsack(weights, values, capacity):
+>    results = [0 for _ in range(capacity)]
+>
+ >   for i in range(len(weights)):
+>        if results[i] != 0:
+>            results[weights[i]-1] = max(values[i], results[weights[i]-1])
+>        else:
+>            results[weights[i]-1] = values[i]
+>
+>    for i in range(capacity):
+>        choices=[]
+>        choices.append(results[i])
+>        for j in range(len(weights)):
+>            if i-weights[j] >= 0:
+>                choices.append(results[i-weights[j]]+values[j])
+>        results[i] = max(choices)
+>
+>    return results
+> ```
+
+> [!note]- Solver for the 0-1 Knapsack problem (Dynamic Programming)
+> ```python
+> def knapsack01(weights, values, capacity):
+>    results = [[0 for _ in range(capacity+1)] for _ in range(len(weights)+1)]
+>    
+>    for i in range(1,len(weights)+1):
+>        for j in range(1,capacity+1):
+>            if weights[i-1] <= j:
+>                results[i][j] = max(results[i-1][j], results[i-1][j-weights[i-1]] + values[i-1])
+>            else:
+>                results[i][j] = results[i-1][j]
+>    return results
+> ```
