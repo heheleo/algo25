@@ -1,4 +1,6 @@
 Complexity Classes are sets of problems that are related in complexity. The complexity classes used in Algorithmics are for decision problems (given an input, the algorithm returns yes or no depending on some statement).
+## Visualisation
+![[Pasted image 20250619123732.png|400]]
 ## P (Polynomial Time)
 P contains all decision problems that are [[Tractable problems|tractable]] - that is, the problem has a solution that can be found in polynomial time. Polynomial-Time problems are [[Deterministic algorithm|deterministic algorithms]]. ==The class P is a subset of class NP.==
 $$

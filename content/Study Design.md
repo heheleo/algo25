@@ -7,9 +7,9 @@ Key knowledge
 - signature specifications of ADTs using operator names, argument types and result types
 	- [[Abstract data type signature]]
 - specification and uses of the following ADTs:
-	- [[Unit 3/Abstract data types/Types/Set|Set]], [[List]], [[Array]], [[Dictionary]] (associative array)]]
+	- [[Unit 3/Abstract data types/Types/Set|Set]], [[List]], [[Array]], [[Dictionary]]
 	- [[Stack]], [[Queue]], [[Priority queue]]
-	- graphs, including undirected and directed graphs and unweighted and weighted graphs]]
+	- graphs, including undirected and directed graphs and unweighted and weighted graphs
 		- [[Graph]]
 - features of [[Graph|graphs]], including [[Path|paths]], [[Weighted graph#Weighted path length|weighted path lengths]], [[Cycle|cycles]] and [[Subgraph|subgraphs]]
 - categories of graphs, including complete graphs, connected graphs, directed acyclic graphs and trees, and their properties

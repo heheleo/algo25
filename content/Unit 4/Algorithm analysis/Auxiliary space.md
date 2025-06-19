@@ -1,0 +1,1 @@
+Extra space or temporary space used by an algorithm.
