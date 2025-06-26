@@ -102,3 +102,27 @@ Best-case performance: $O(n \log(n))$
 >         i += 1
 >     return quicksort(listToSort[:pivot]) + [pivotItem] + quicksort(listToSort[pivot+1:])
 > ```
+
+
+---
+### Time analysis
+
+
+
+
+There are 2 branches per call of quick sort.
+
+Worst case: pivot is at the very left or very right
+
+
+$$T(n) =  T(n-1) +n-1 $$
+$$
+T(n) = \sum_{i=1}^{n-1} (n-1) = (n-1)^2 = O(n^2)
+
+$$
+
+Best case, pivot is in exact middle
+$$T(n) =  2T(\frac{n}{2}) +n-1 $$
+
+
+$$O(n \log n)$$

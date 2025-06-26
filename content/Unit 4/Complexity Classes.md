@@ -14,6 +14,7 @@ $O(2^n),O(n!),O(n^n)$ do not count as polynomial time
 Remember $P \subseteq NP$
 
 ## NP (Non-deterministic Polynomial Time)
+Note, does not stand for non polynomial time, but stands for P time if we were using a non deterministic Turing machine.1
 NP contains all decision problems which are solvable by a non-deterministic Turing machine in polynomial time. 
 Problem can be verified in polynomial time.
 An alternative definition is the set of decision problems where the answer can be verified in polynomial time. An unsolved question is whether P=NP, however it is generally believed that P≠NP.

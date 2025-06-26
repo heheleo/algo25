@@ -15,3 +15,12 @@ O(n^c\space log\space n) &\text{if } \space a=b^c \\
 O(n^{log_b(a)}) &\text{if }\space a>b^c
 \end{cases}
 $$
+
+
+Only works for divide and conquer
+
+Where
+
+$a$ is number of subproblems or sub calls per call
+$\frac{n}{b}$ is the size of input each subproblem receives
+$k\cdot n^c$ represents the time complexity of one recursion 
