@@ -117,7 +117,7 @@ Time complexity: $O(n^3)$
 > 
 > Base Case: When k=1 if going via node k=1 is less than the current distance between nodes numbered i and j, which is i-->1-->j will be reduce the distance by since the condition dist[i,1]+dist[1,j] < dist[i,j] will be true since nodes i and j do not have a direct edge connecting them, but are connected via node k=1. 
 > 
-> Inductive Step: Suppose for (k-1) passes all distances via nodes 1..(k-1) have been updated correctly for the outer loop of the triple nested loop in the FW algorithm and that dist[i,j] contains the shortest distance from node I to node j where the intermediate vertices lie within {1……(k-1)} of the graph. 
+> Inductive Step: Suppose for (k-1) passes all distances via nodes 1..(k-1) have been updated correctly for the outer loop of the triple nested loop in the FW algorithm and that dist[i,j] contains the shortest distance from node I to node j where the intermediate vertices lie within $\{ 1,\dots,k-1 \}$ of the graph. 
 > 
 > On the kth iteration of the outer triple nested loop of the FW algorithm there are two possibilities. 
 > 
@@ -127,3 +127,5 @@ Time complexity: $O(n^3)$
 >     
 > 
 > As k is incremented from 1 to |V| we have then relaxed all the edges from i to j via node k where a path exists. We explored all the i-->k, k-->j paths in the graph, so FW gives the correct answer for the whole graph G.
+
+
