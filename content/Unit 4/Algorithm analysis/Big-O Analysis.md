@@ -28,7 +28,7 @@ $$
 ## How to find Big-O
 - ignore lower order terms, consider highest order term (e.g. term with highest power)
 - ignore constant (coefficient) associated with highest order term
-- see [[Examples of Big-O]] for simple/difficult examples
+- see [[Other Examples of Big-O]] for simple/difficult examples
 
 
 > [!note]- Why we concatenate log terms
