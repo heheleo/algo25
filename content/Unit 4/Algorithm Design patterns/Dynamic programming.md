@@ -5,7 +5,10 @@ Dynamic programming is a programming design pattern also referred to as a method
 It is brute force but with optimisations to prevent repeats
 
 
-. 
+It requires overlapping subproblems to be advantageous.
+It trades decreased time complexity (reduce need for recalculation) for increased space complexity (storage needed to store obtained solutions to subploblems).
+
+
 
 Examples
 Floyd warshall
