@@ -1,4 +1,13 @@
-Simulated Annealing is a [[Heuristics#Metaheuristics|metaheuristic]] that aims to find a global maximum. It operates by having a temperature, calculating a new state, then calculating a probability function $\text{P}(\text{E}_1,\text{E}_2,\text{T})$, usually set to be $e^{-\frac{\Delta E}{T}}$, where $\Delta E = \text{E}_2-\text{E}_1$. If $\text{P}(\text{E}_1,\text{E}_2,\text{T})$ is greater than a random value between zero and one, then it moves to the new state, otherwise it does not move. The temperature lowers after every step, meaning that it becomes increasingly less likely to move to a less optimal state.
+Simulated Annealing is a [[Heuristics#Metaheuristics|metaheuristic]] that aims to find a global maximum. 
+
+Is an optimised version of [[Hill climbing]].
+
+It can find global optimum if run slowly enough, useful for hard combinatorial problems.
+Allows itself to escape local maxima by occasionally taking non-optimal mutations.
+
+It operates by having a temperature, calculating a new state, then calculating a probability function $\text{P}(\text{E}_1,\text{E}_2,\text{T})$, usually set to be $e^{-\frac{\Delta E}{T}}$, where $\Delta E = \text{E}_2-\text{E}_1$. If $\text{P}(\text{E}_1,\text{E}_2,\text{T})$ is greater than a random value between zero and one, then it moves to the new state, otherwise it does not move. The temperature lowers after every step, meaning that it becomes increasingly less likely to move to a less optimal state.
+
+
 
 The energy is given by some function, such as in the case of the [[Travelling Salesman Problem (TSP)]], the energy is the total distance, and the change can be implemented by swapping two cities.
 

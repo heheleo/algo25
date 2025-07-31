@@ -1,4 +1,15 @@
-The A* search algorithm is a [[Best-first search]] that finds the optimal path from a start node to an end node. It operates by choosing the next node by choosing the node with the lowest distance from the starting node plus a heuristic function, with the heuristic function usually being an approximation of the total weight of the shortest path from this node to the end node. If the heuristic function is equal to zero, then it is equivalent to [[dijkstra's algorithm]].
+The A* search algorithm is a [[Best-first search]] that finds the optimal path from a start node to an end node. 
+It does not find shortest path to other nodes, unlike dijkstras, only the target node.
+
+It operates by choosing the next node by choosing the node with the lowest distance from the starting node plus a heuristic function, with the heuristic function usually being an approximation of the total weight of the shortest path from this node to the end node. 
+
+Let actual cost be $g(n)$ and heuristic estimate be $h(n)$.
+Let $F(n)=g(n)+h(n)$.
+Finds the least cost path efficiently if $h$ is *admissible* (in that it never overestimates the true cost).
+Take the unvisited node with least $F(n)$ as next node.
+
+If the heuristic function is equal to zero, then it is equivalent to [[dijkstra's algorithm]].
+
 
 ## Implementation
 

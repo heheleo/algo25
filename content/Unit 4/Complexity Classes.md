@@ -2,18 +2,20 @@ Complexity Classes are sets of problems that are related in complexity. The comp
 ## Visualisation
 ![[Pasted image 20250619123732.png|400]]
 ## P (Polynomial Time)
-P contains all decision problems that are [[Tractable problems|tractable]] - that is, the problem has a solution that can be found in polynomial time. Polynomial-Time problems are [[Deterministic algorithm|deterministic algorithms]]. ==The class P is a subset of class NP.==
+P contains all decision problems that are [[Tractable problems|tractable]] - that is, the problem has a solution that can be found in polynomial time. Polynomial-Time problems are [[Deterministic algorithm|deterministic algorithms]]. 
+==The class P is a subset of class NP.==
 $$
-T(n)=O(n^k),k \in { \mathbb{Z}^+ }
+T(n)=O(n^k),k \in { \mathbb{Z}^+ \cup{\{0\}}  }
 $$
 
 $O(2^n),O(n!),O(n^n)$ do not count as polynomial time.
 ## NP (Non-deterministic Polynomial Time)
-NP contains all decision problems that are [[Tractable problems|intractable]]. That is, the problem either has solutions already found and are verifiable in polynomial time, or can be solved in [[Deterministic algorithm#Non-deterministic algorithm|non-deterministic]] polynomial time (by random chance). 
+NP contains all decision problems that are [[Tractable problems|intractable]]. 
+That is, the problem either has solutions already found and are verifiable in polynomial time, or can be solved in [[Deterministic algorithm#Non-deterministic algorithm|non-deterministic]] polynomial time (by random chance). 
 These problems can be solved on a non-deterministic Turing machine. An unsolved question is whether P=NP however it is generally believed that P≠NP.
 ## NP-Complete
 The set of all decision problems $X$ in NP for which it is possible to reduce any other NP problem $Y$ to $X$ in polynomial time. This means we can solve $Y$ quickly if we know how to solve $X$ quickly.
-If any one NP-Complete problem can be solved in polynomial time, then every problem in NP can also be solved in polynomial time.
+If any one NP-Complete problem can be solved in polynomial time, then every problem in NP can also be solved in polynomial time, meaning P expands to contain all of old NP.
 ### Examples
 - [[Travelling Salesman Problem (TSP)]]
 - [[0-1 Knapsack Problem]]
