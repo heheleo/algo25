@@ -14,23 +14,26 @@ The energy is given by some function, such as in the case of the [[Travelling Sa
 ### Implementation
 
 ```python
+import math
+import random
+
 def P(e1, e2, t):
     try:
         return math.exp((e1-e2)/t)
     except OverflowError:
         return 1e+10
 
-def lower(state, steps, initialtemp, change, energycalc):
+def simulated_annealing(state, steps, initialtemp, change_function, energy_function):
     beststate = state
     i = steps
     initialstate = state
     while i > 1:
         i -= 1
         t = initialtemp * i/steps
-        newstate = change(state, init=initialstate)        
-        if P(energycalc(state), energycalc(newstate), t) > random.randrange(0,100)/100:
+        newstate = change_function(state, init=initialstate)        
+        if P(energy_function(state), energy_function(newstate), t) > random.randrange(0,100)/100:
             state = newstate
-            if energycalc(state) < energycalc(beststate):
+            if energy_function(state) < energy_function(beststate):
                 beststate = state
     return beststate
 ```
@@ -48,5 +51,5 @@ def move(s, **kwargs):
     newy += random.randrange(-abs(kwargs["init"][1]*10), abs(kwargs["init"][1]*10))/100
     return newx, newy
 
-lower((100, 100), 1e+6, 1, move, energy)
+simulated_annealing((100, 100), 1e+6, 1, move, energy)
 ```

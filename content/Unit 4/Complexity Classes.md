@@ -17,7 +17,6 @@ These problems can be solved on a non-deterministic Turing machine. An unsolved 
 The set of all decision problems $X$ in NP for which it is possible to reduce any other NP problem $Y$ to $X$ in polynomial time. This means we can solve $Y$ quickly if we know how to solve $X$ quickly.
 If any one NP-Complete problem can be solved in polynomial time, then every problem in NP can also be solved in polynomial time, meaning P expands to contain all of old NP.
 ### Examples
-- [[Travelling Salesman Problem (TSP)]]
 - [[0-1 Knapsack Problem]]
 - [[Graph Coloring Problem]]
 ## NP-Hard
@@ -28,5 +27,6 @@ If problem $X$ is NP-Hard, there is a NP-complete problem $Y$ such that $Y$ is r
 A reduction is a method of solving a problem by converting that problem into an instance of a second problem which has a known solution, and using that solution to solve the first problem.
 If any NP-hard problem can be solved in polynomial time, all NP problems can be solved in polynomial time. Some NP-hard problems are not even verifiable in polynomial time.
 ### Examples
+- [[Travelling Salesman Problem (TSP)]]
 - [[Halting Problem]]
 - Any NP-complete problem is NP-hard.
