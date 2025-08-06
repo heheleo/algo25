@@ -2,6 +2,8 @@ Process of assigning colors to each node of a graph, where each node should have
 
 This is similar to giving nodes "weights", but in this case giving each node a specific color.
 Node coloring is often used in models that deal with conflict resolution (resolving a graph so that there are no conflict/overlap).
+## Time complexity
+For the general $k$-coloring problem, time complexity using backtracking is $O(k^n)$ where $n$ is the number of vertices (regions on the map)
 ## Example
 Graph coloring techniques can be applied to assigning frequencies to radio stations, scheduling club meetings, and coloring the countries of a map. 
 
