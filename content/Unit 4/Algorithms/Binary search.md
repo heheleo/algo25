@@ -1,5 +1,5 @@
 
-The binary search algorithm is an algorithm that finds a value in a sorted list. Simply put, the binary search algorithm recursively checks the middle of the list if it is greater or smaller than the target value, and then splits the list in half accordingly, until it reaches the target value.
+The binary search algorithm is a divide and conquer algorithm that finds a value in a sorted list. Simply put, the binary search algorithm recursively checks the middle of the list if it is greater or smaller than the target value, and then splits the list in half accordingly, until it reaches the target value.
 ## Time complexity
 Average case / worst case: $O(\log N)$
 ## Implementation
