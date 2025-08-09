@@ -128,7 +128,7 @@ Key skills
 ## AOS3 Computer science: past and present
 Key knowledge
 - the historical connections between the foundational crisis of mathematics in the early 20th century and the origin of computer science, including Hilbert and Ackermann’s [[Entscheidungsproblem]] and its resolution by Church and Turing
-- characteristics of a [[Turing machine]]
+- characteristics of a [[Turing Machine]]
 - the concept of decidability and the [[Halting Problem]] as an example of an undecidable problem
 - implications of undecidability for the limits of computation
 - philosophical conceptions of artificial intelligence, including the [[Turing Test]], [[Weak and Strong AI]]
