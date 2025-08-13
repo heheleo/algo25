@@ -5,9 +5,30 @@ When the foundational crisis arose, philosophical questions about mathematical t
 - formalism: considers a theorem is true if it can be deduced from axioms by applying inference rules, and no 'trueness' of the axioms is needed for the validity of a theorem
 ## Formalism
 The mathematician David Hilbert was a known formalist, proposing the famous [[Hilbert's Program]] as a proposed solution to the crisis.
-## Intuitionalism/constructivism
+
+
+## Axioms
+Formal mathematics are built up from axioms.
+An axiom is a premise or statement so evident it can mostly be accepted without proof.
+Most of the time, this is due to the face that the axiom is so fundamental, it is difficult to break the statement down to prove it.
+
+Different branches or schools of mathematics might have similar but different sets of axioms.
+
+An example of an axiom is the Axiom of empty set, which proposes the existence of an empty set {}. 
+
+
+## Theorem
+A theorem is a proposition or a statement.
+A theorem is said to be proved if it can be derived from axioms.
+
+Processes of proofs in algorithms SD include: induction, contradiction
+
+
+
+## Not in SD
+### Intuitionalism/constructivism
 Not relevant to the study design.
-## Russel's Paradox
+### Russel's Paradox
 (not in study design) a paradox that contributed to the crisis: X is a set of every single set that exists which don't contain themselves. If X does not contain X, it is therefore a set that does not contain itself, and must be a part of X. But X does not contain X.
 
 > [!note] Russel himself uses the Barber Analogy:
