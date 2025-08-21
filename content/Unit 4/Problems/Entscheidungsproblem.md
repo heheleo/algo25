@@ -1,6 +1,6 @@
 A problem posed by David Hilbert and Wilhelm Ackermann in 1928, within [[Hilbert's Program]]. It translates to "decision problem" in German.
 ## Problem statement
-It asks if there is an algorithm that outputs "yes" or "no" if an input statement is universally valid. 
+It asks if there is an algorithm that outputs "yes" or "no" if an input statement is universally valid (in that the statement is valid in every structure satisfying the axioms). 
 ## Proof
 It was proven to be impossible by Church and Turing in 1936. Turing connects the result from the [[Halting Problem]]. He showed that you could transform the halting problem into a logical statement.
 

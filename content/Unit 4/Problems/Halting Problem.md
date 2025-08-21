@@ -1,4 +1,6 @@
-A problem that asks for an arbitrary computer program and input, is it possible to determine if the program will run forever or halt?
+## Problem statement
+A problem that asks:
+For an arbitrary computer program and input, is it possible to determine if the program will run forever or halt?
 
 Turing proved that the problem is [[Limits of Computability#Hard Limit of Computability|undecidable]], meaning that it is impossible to create an algorithm that will determine if an arbitrary program will halt. Turing uses Halting Problem to also prove that the [[Entscheidungsproblem]] is also undecidable.
 ## Proof of undecidability

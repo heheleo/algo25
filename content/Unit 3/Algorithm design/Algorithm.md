@@ -7,3 +7,8 @@ Must be:
 - unambiguous
 - executable
 - terminates
+
+Further exploration of its definition for Unit 4:
+An algorithm must be a self contained set of instructions.
+Can be expressed in a finite amount of time and space, and in formal notation.
+Does not have to be deterministic, can incorporate random elements.

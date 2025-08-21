@@ -19,12 +19,20 @@ Every part of the machine and its actions is *finite*, and *discrete*, except fo
 	3. assume the same or a new state as prescribed
 ## Formalisms
 A (one-tape) Turing machine can be formally defined as a 7-tuple $M=\langle Q,\Gamma,b,\Sigma,\delta,q_{0},F \rangle$ where:
-- $\Gamma$ denotes the tape alphabet
+- $\Gamma$ denotes the tape alphabet as a set
 - $b \in \Gamma$ is the blank symbol (only symbol allowed to occur on the tape infinitely at any step within computation)
 - $\sum \subseteq \Gamma\setminus \{ b \}$ is the input symbols, which is the set of symbols allowed to appear in the initial tape contents
 - $Q$ is the set of states
 - $q_{0} \in Q$ is the initial state
 - $F \subseteq Q$ is the set of final states
 	- the initial tape contents is said to be **accepted** by $M$ if it eventually halts in a state from $F$
-- $\delta:(Q\setminus F) \times \Gamma \to Q \times \Gamma \times \{ L,R \}$ is the transition function, which specifies the next state transited from the current state, which symbol to overwrite the current symbol pointed by the head, and the next head movement. 
+- $\delta$ is the transition function, which specifies the next state transited from the current state, which symbol to overwrite the current symbol pointed by the head, and the next head movement.
+	- Signature: $\delta:(Q\setminus F) \times \Gamma \to Q \times \Gamma \times \{ L,R \}$
+	- Notation: $\delta(q,Z)$ returns a 3-tuple $(p,Y,D)$
+		- Takes 2 arguments: $q$, a state in $Q$ excluding the final states $F$; and $Z$, a tape symbol in $\Gamma$
+		- Actions $(p, Y, D)$
+			- where, p is a state in Q, Y is a tape symbol, and D is a direction (L or R)
+		- Describes the sequence "In state q, if current symbol under its tape head is Z, then: change state to p, replace Z by Y, and move 1 square in direction D"
+		- It is a function, for different inputs of $q$ and $Z$ will return different 3-tuples
+
 [^1]: https://en.wikipedia.org/wiki/Turing_machine

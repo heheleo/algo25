@@ -11,9 +11,10 @@ $$
 $O(2^n),O(n!),O(n^n)$ do not count as polynomial time.
 ## NP (Non-deterministic Polynomial Time)
 NP contains all decision problems that are [[Tractable problems|intractable]]. 
+Criteria: cannot be solved in P time, but can be checked and verified in P time
 That is, the problem either has solutions already found and are verifiable in polynomial time, or can be solved in [[Deterministic algorithm#Non-deterministic algorithm|non-deterministic]] polynomial time (by random chance). 
 These problems can be solved on a non-deterministic Turing machine. An unsolved question is whether P=NP however it is generally believed that P≠NP.
-	## NP-Complete
+## NP-Complete
 The set of all decision problems $X$ in NP for which it is possible to reduce any other NP problem $Y$ to $X$ in polynomial time. This means we can solve $Y$ quickly if we know how to solve $X$ quickly.
 This also means any NP-Complete problem can be reduced to any other NP-Complete problem.
 If any one NP-Complete problem can be solved in polynomial time, then every problem in NP can also be solved in polynomial time, meaning P expands to contain all of old NP.
