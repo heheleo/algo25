@@ -1,6 +1,8 @@
 ---
 aliases:
   - types of machine learning
+  - supervised
+  - unsupervised
 ---
 
 Two types: supervised and unsupervised
