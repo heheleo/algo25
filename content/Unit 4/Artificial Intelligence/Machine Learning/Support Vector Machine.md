@@ -7,7 +7,8 @@ The **margin** is defined as a distance from the hyperplane to the nearest data 
 The main goal of the algorithm is to **maximise** the margin between the two classes. The larger the margin, the better the model performs on new and unseen data. [^1]
 ![[Pasted image 20250822122600.png|220]]
 ## Non-linear SVMs
-(unlikely in SD)
+(not in SD)
 If data is not linearly separable, SVM functions to map the data into higher-dimensional space. This transformation helps SVMs find a new hyperplane within the new space.
+![[data_2d_to_3d_hyperplane-2746946971.png]]
 
 [^1]: https://www.geeksforgeeks.org/machine-learning/support-vector-machine-algorithm/
