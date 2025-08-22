@@ -1,4 +1,4 @@
-A machine learning problem that categorises new observations into one of two classes.
+A machine learning task that categorises new observations into one of two groups (called classes).
 ## Difference compared to [[Linear classifier|linear classifiers]]
 Binary classification describes what the goal is, whilst a linear classifier describes how that goal is accomplished using a model.
 ## Examples

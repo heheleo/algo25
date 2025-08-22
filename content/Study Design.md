@@ -133,16 +133,16 @@ Key knowledge
 - implications of undecidability for the limits of computation
 - philosophical conceptions of artificial intelligence, including the [[Turing Test]], [[Weak and Strong AI]]
 - [[Searle's Chinese Room Argument]], including standard responses both for and against
-- the concept of training algorithms using data
+- the concept of [[Training with Data|training algorithms using data]]
 - the concepts of model [[overfitting and underfitting]]
-- [[support vector machines]] (SVM) as margin-maximising linear classifiers, including:
-- the geometric interpretation of applying SVM binary classification to one- or two-dimensional data
+- [[Support Vector Machine|Support vector machines]] (SVM) as margin-maximising linear classifiers, including:
+- the geometric interpretation of applying SVM [[Binary classification|binary classification]] to one- or two-dimensional data
 - the creation of a second feature from one-dimensional data to allow linear classification
 - Neural Networks, including:
-- the structure of [[multi-layer perceptron neural networks]]
-- the evaluation of outputs using [[forward propagation]]
-- [[Model training|training neural networks]] by using iterative improvement of the edge weights to reduce the output error
-- the factors leading to a resurgence in neural networks in the late 20th century
+	- the structure of [[Multi-layer Perceptron|multilayer-perceptron neural networks]]
+	- the evaluation of outputs using [[forward propagation]]
+	- [[Model training|training neural networks]] by using iterative improvement of the edge weights to reduce the output error
+	- the factors leading to a [[Resurgence in neural networks|resurgence in neural networks]] in the late 20th century
 - [[Ethics of AI|ethical issues]] related to artificial intelligence and data-driven algorithms, including transparency, accountability, bias and machine ethics
 Key skills
 - explain the historical context for the emergence of computer science as a field

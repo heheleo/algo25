@@ -1,0 +1,1 @@
+A collection of artificial neurons, or nodes, that operate together at a specific depth to process information.
