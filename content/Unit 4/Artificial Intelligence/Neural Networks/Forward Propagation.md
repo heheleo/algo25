@@ -1,1 +1,5 @@
-Forward propagation is the method by which feedforward neural networks such as [[Multi-layer Perceptron|MLPs]] determine outputs based on an input. First, data is input to the input layer of the neural network. The data is then processed by the hidden layers, with each neuron calculating an output based on its input and activation function, and then passing its output to the next layer. The result is then output via the output layers.
+Forward propagation is the method by which feedforward neural networks such as [[Multi-layer Perceptron|MLPs]] determine outputs based on an input. 
+
+First, data is input to the input layer of the neural network. 
+The data is then processed by the hidden layers, with each neuron calculating an output based on its input and activation function, and then passing its output to the next layer. 
+The result is then output via the output layers.

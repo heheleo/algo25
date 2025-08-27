@@ -1,10 +1,16 @@
 An artificial neuron. The simplest artificial neural network architecture, commonly used for [[Binary classification|binary classification]]. [^1]
 ## Components
+
+Data:
 - [[Feature|features]]: each representing a characteristic of the input data.
 - weights: each feature has a weight that determines its influence on an output. These weights are adjusted via [[Training with Data|training]] to find their optimal values.
-- bias: an adjustable numerical term that is added to the weighted sum before the activation function is applied. This term is independent of the inputs, giving the perceptron more flexibility to fit more complex data.
-- activation function: comparing weighted sum to a threshold to produce a binary output. This is often a Heaviside step function.
+- bias: an adjustable numerical term that is added to the weighted sum before the activation function is applied. 
+	- This term is independent of the inputs, giving the perceptron more flexibility to fit more complex data.
+
+Functions:
 - summation function: function that calculates the weighted sum of its input
+- activation function: comparing weighted sum to a threshold to produce a binary output. This is often a Heaviside step function.
+
 The general idea is that different weights will represent the importance of each input, and that the weighted sum should be greater than a threshold value before making a binary decision:
 ![[Pasted image 20250822151129.png]]
 ## Perceptron Algorithm[^2]

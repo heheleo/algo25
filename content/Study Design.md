@@ -142,7 +142,7 @@ Key knowledge
 	- the structure of [[Multi-layer Perceptron|multilayer-perceptron neural networks]]
 	- the evaluation of outputs using [[forward propagation]]
 	- [[Model training|training neural networks]] by using iterative improvement of the edge weights to reduce the output error
-	- the factors leading to a [[Resurgence in neural networks|resurgence in neural networks]] in the late 20th century
+	- the factors leading to a [[Resurgence in neural networks (History)|resurgence in neural networks]] in the late 20th century
 - [[Ethics of AI|ethical issues]] related to artificial intelligence and data-driven algorithms, including transparency, accountability, bias and machine ethics
 Key skills
 - explain the historical context for the emergence of computer science as a field
