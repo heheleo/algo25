@@ -136,8 +136,8 @@ Key knowledge
 - the concept of [[Training with Data (Types of machine learning)|training algorithms using data]]
 - the concepts of model [[overfitting and underfitting]]
 - [[Support Vector Machine|Support vector machines]] (SVM) as margin-maximising linear classifiers, including:
-- the geometric interpretation of applying SVM [[Binary classification|binary classification]] to one- or two-dimensional data
-- the creation of a second feature from one-dimensional data to allow linear classification
+	- the geometric interpretation of applying SVM [[Binary classification|binary classification]] to one- or two-dimensional data
+	- the creation of a second feature from one-dimensional data to allow linear classification
 - Neural Networks, including:
 	- the structure of [[Multi-layer Perceptron|multilayer-perceptron neural networks]]
 	- the evaluation of outputs using [[Forward Propagation]]

@@ -1,4 +1,5 @@
 Multi-layer perceptron (MLP) is a modern neutral network architecture consisting of **fully connected** [[Perceptron|perceptrons]] with nonlinear activation functions, organised in [[Layer (neural network)|layers]]. It is notable for being able to distinguish data that is not linearly separable.
+
 ## Multi-layer
 A MLP are composed of perceptrons arranged in layers:
 - Input layer: each perceptron corresponds to an input feature
