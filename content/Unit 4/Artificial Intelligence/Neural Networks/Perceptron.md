@@ -42,7 +42,7 @@ For example, for a certain perceptron after training, we obtain the weights
 $[0.00416, -0.05986]$
 and a bias of 0.
 We can use this to form the equation $0.00416x_{1}-0.05986x_{2}=0$.
-Which becomes a separator line for the two regions of the graph, representing what inputs the perceptron will give what output.
+Which becomes a straight line linear classifier for the two regions of the graph, representing for what inputs the perceptron will give what output.
 
 ![[Pasted image 20250828161302.png|400]]
 
