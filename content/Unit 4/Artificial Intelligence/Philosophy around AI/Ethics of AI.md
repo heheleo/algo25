@@ -37,7 +37,7 @@ Bias in AI refers to systematic and unfair favouritism or prejudice in AI system
 - data bias: use of unrepresentative data
 - algorithmic bias: algorithm itself may introduce bias.
 ## Data bias
-Reliance on data to [[Training with Data|train]] algorithms introduces an omnipresent challenge, as data itself can reflect biases inherent in societal structures (racism, prejudice). For example, Amazon terminated their use of AI hiring and recruitment because the algorithm favoured male candidates over female ones. This was because Amazon's system was trained with data collected over 10-year period that came mostly from male candidates.
+Reliance on data to [[Training with Data (Types of machine learning)|train]] algorithms introduces an omnipresent challenge, as data itself can reflect biases inherent in societal structures (racism, prejudice). For example, Amazon terminated their use of AI hiring and recruitment because the algorithm favoured male candidates over female ones. This was because Amazon's system was trained with data collected over 10-year period that came mostly from male candidates.
 ## Algorithmic bias
 The way the algorithm is built may introduce bias, for example, a credit risk model may weigh a zip code more heavily.
 ## Mitigating bias

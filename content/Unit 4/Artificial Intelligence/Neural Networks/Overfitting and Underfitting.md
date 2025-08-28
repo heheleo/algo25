@@ -20,7 +20,7 @@ Example: model predicts house prices based solely on square footage. Model fails
 ## Overfitting vs underfitting
 - Underfit models experience high **bias**: inaccurate results for both training data and test set.
 - Overfit models experience high **variance**: accurate results for the training set but not for the test set.
-In general, more [[Training with Data|training]] results in less bias but variance can increase.
+In general, more [[Training with Data (Types of machine learning)|training]] results in less bias but variance can increase.
 
 [^1]: https://aws.amazon.com/what-is/overfitting/
 

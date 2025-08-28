@@ -12,3 +12,15 @@ Instead of being explicitly programmed with rules, algorithms 'train' on a large
 	- there normally is an external program that judges the AI's performance, and judges if it is good or bad,  and gives corresponding reinforcement. This forms a feed back loop, with the goal of ensuring the AI will keep or use changes that led to better attempts.
 	
 Once training is complete, the algorithm has 'learned' patterns from the given data. When given new, unseen data, it applies what it learned to make a prediction. The model's success is often determined by how accurately it can generalise its knowledge, and the quality of the input data.
+
+## Supervised Machine Learning
+Uses labeled data to predict outcomes.
+- has a target output
+- learns by minimising error
+- aim to improve prediction on new data
+Uses separate training data and test data.
+## Unsupervised machine learning
+Uses unlabelled data to discover patterns and structures.
+- works without explicit guidance
+- only reveals patterns, doesn't know what the patterns actually mean. The algorithm is like "Hey! These data points follow a pattern, here they are!"
+

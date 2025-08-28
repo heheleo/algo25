@@ -3,7 +3,7 @@ An artificial neuron. The simplest artificial neural network architecture, commo
 
 Data:
 - [[Feature|features]]: each representing a characteristic of the input data.
-- weights: each feature has a weight that determines its influence on an output. These weights are adjusted via [[Training with Data|training]] to find their optimal values.
+- weights: each feature has a weight that determines its influence on an output. These weights are adjusted via [[Training with Data (Types of machine learning)|training]] to find their optimal values.
 - bias: an adjustable numerical term that is added to the weighted sum before the activation function is applied. 
 	- This term is independent of the inputs, giving the perceptron more flexibility to fit more complex data.
 
