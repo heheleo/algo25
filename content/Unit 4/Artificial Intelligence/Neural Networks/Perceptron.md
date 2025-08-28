@@ -18,6 +18,8 @@ The general idea is that different weights will represent the importance of each
 2. Multiply all input features with their weights
 3. Sum all the results, giving the weighted sum
 4. Activate the output
+
+Note will only output binary.
 ## Example
 The perceptron decides if we should go to a concert. It will output "Yes" or "No".
 ![[Pasted image 20250822150641.png]]
