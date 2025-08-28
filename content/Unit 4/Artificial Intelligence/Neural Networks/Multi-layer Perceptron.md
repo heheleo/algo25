@@ -6,6 +6,7 @@ A MLP are composed of perceptrons arranged in layers:
 - Output layer: generates the final prediction or result. If there are multiple outputs, the layer will have a corresponding number of perceptrons.
 ## Visualisation
 Important: note that MLPs are fully connected in a way that every node in one layer connects to every node in the next layer.
+It is a $n$-partide complete graph.
 ![[Pasted image 20250822154516.png|400]]
 ## Feedforward
 MLPs are feedforward, meaning that information flows in a single direction, i.e. from the input layer to the hidden layer to the output layer without loops or feedback.
