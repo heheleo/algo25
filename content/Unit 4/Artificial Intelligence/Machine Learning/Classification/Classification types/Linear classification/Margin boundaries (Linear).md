@@ -22,5 +22,4 @@ More specifically
 	- $h(x)=1$
 - **Class -1 boundary**
 	- $h(x)=-1$
-The margin for this pair of margin boundaries is $m=\frac{2}{||w||}$
-($||w||$ is magnitude of vector $w$, it is the more formal (?) version of VCE spesh's $|w|$)
+The margin for this pair of margin boundaries is $m=\frac{2}{||w||}$, where $||w||$ is the magnitude of the weights (distance from the origin)

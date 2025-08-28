@@ -1,4 +1,4 @@
-(also known as SVM) a [[Types of Machine Learning|supervised]] machine learning algorithm used for classification and regression tasks. 
+(also known as SVM) a [[Training with Data (Types of machine learning)#Supervised Machine Learning|supervised]] machine learning algorithm used for classification and regression tasks. 
 It is a margin-maximising [[Linear classifier|linear classifier]]. It tries to find the best boundary that separates different classes in the data. 
 
 ## Principle

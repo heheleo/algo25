@@ -36,7 +36,7 @@ Note: if treating $x$ and $w$ as matrices, need to transpose the first term, eg 
 $$
 \text{vector dot product of w and x}=-b\text{ (constant number)}
 $$
-You may recognise this from spec as the cartesian equation for a plane/hyperplane 
+You may recognise this from Specialist Maths as the cartesian equation for a plane/hyperplane 
 ($r\cdot n=r_{0}\cdot n$).
 
 Here $r$, or the position vector, is represented by $x$.

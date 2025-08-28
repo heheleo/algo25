@@ -6,7 +6,7 @@ $$
 \text{Maximise }\sum_{i=1}^nv_ix_i\text{ where }\sum_{i=1}^nw_ix_i\leq W\text{ and }x_i\in\{0,1\}
 $$
 ## Complexity Class
-The 0-1 knapsack problem is [[Complexity Classes#NP-Complete|NP-Complete]], and so currently there are no known polynomial-time solutions to the problem.
+The 0-1 knapsack problem is [[Complexity Classes#NP-Hard|NP-Hard]], and so currently there are no known polynomial-time solutions to the problem. The decision problem version of the 0-1 knapsack problem asks "Given a set of items, each with a weight and a value, is there a set of items below a total weight that has a total value above $N$?", and is [[Complexity Classes#NP-Complete|NP-Complete]]
 ## Solutions
 - Brute force yields $O(2^n)$ time complexity.
 - Dynamic programming yields the optimal solution in $O(nW)$ time, where $n$ is the number of items and $W$ is the backpack capacity.
