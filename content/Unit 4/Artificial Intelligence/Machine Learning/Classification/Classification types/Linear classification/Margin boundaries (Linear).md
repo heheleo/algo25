@@ -16,6 +16,7 @@ Using [[Vector notation for weight and data]]
 
 Let $h(x)=x\cdot w+b$ ($b$=bias)
 If $h(x)=0$ represents the decision boundary, then $h(x)=k,k\neq{0}$ represents margin boundaries.
+Note that $\dots+b$ and $\dots-b$ in the formula is often interchangeable, as b can be negative or positive, and is adjusted during training anyways, just need to ensure its consistant.
 
 More specifically
 - **Class +1 boundary**

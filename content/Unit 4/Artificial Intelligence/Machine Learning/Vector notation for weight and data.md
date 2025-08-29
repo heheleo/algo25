@@ -42,5 +42,6 @@ You may recognise this from Specialist Maths as the cartesian equation for a pla
 Here $r$, or the position vector, is represented by $x$.
 This makes $w$ the normal vector.
 **$w$ will always be normal to classification (decision and margin) boundaries**.
-%% NOT SUREL Note that the magnitude of $w$ is not significant as the bias and $w$ are both adjusted during training. %%
-![[Pasted image 20250828221537.png]]
+$w$ affects the margin.
+
+![[Pasted image 20250829121703.png]]
