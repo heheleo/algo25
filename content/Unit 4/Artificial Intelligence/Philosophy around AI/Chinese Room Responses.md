@@ -3,9 +3,9 @@ While the person in the room may not understand Chinese, the system as a whole (
 
 **Searle's Reply**: By simplifying this list of physical objects: he asks what happens if the man memorises the rules and keeps track of everything in his head? Then the whole system consists of just one object: the man himself. Searle argues that if the man doesn't understand Chinese then the system doesn't understand Chinese either because now "the system" and "the man" both describe exactly the same object.
 ## The Robot Reply
-A fixed computer as confined to the room does not understand Chinese under present considerations. If it had sensory apparatus to connect words with meaning and was suitably programmed, then with with its ability to interact with the physical world, it would be able to understand Chinese (and achieve genuine understanding).
+A fixed computer as confined to the room does not understand Chinese under present considerations. If it had sensors to perceive the world and motors to interact with it, the robot would then have genuine understanding (and understand Chinese).
 
-**Searle's Reply**: Suppose that even if some of the inputs came directly from a camera mounted on a robot, and some of the outputs were used to manipulate the arms and legs of the robot. Nevertheless, the person in the room is still just following the rules, and does not know what the symbols mean. Searle writes "he doesn't see what comes into the robot's eyes."
+**Searle's Reply**: Adding a robotic body with sensory inputs and motor outputs doesn't provide the system with understanding. It doesn't acknowledge genuine mental states, and only guarantees more complex symbol manipulation. In other words, a physical layer simply adds another layer of formal symbol processing.
 ## The Brain Simulator Reply
 If the computer's program simulated the actual neural firings of a Chinese speaker's brain, then the computer would understand Chinese, just as a native speaker does
 
