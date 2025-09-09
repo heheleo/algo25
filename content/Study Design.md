@@ -133,7 +133,7 @@ Key knowledge
 - implications of undecidability for the limits of computation
 - philosophical conceptions of artificial intelligence, including the [[Turing Test]], [[Weak and Strong AI]]
 - [[Searle's Chinese Room Argument]], including standard responses both for and against
-- the concept of [[Training with Data (Types of machine learning)|training algorithms using data]]
+- the concept of [[Training with Data|training algorithms using data]]
 - the concepts of model [[overfitting and underfitting]]
 - [[Support Vector Machine|Support vector machines]] (SVM) as margin-maximising linear classifiers, including:
 	- the geometric interpretation of applying SVM [[Binary classification|binary classification]] to one- or two-dimensional data

@@ -1,3 +1,4 @@
+#notinsd
 ### Weight vector
 The weight vector, is denoted as $w$, where:
 $$
@@ -23,7 +24,7 @@ x_{n}
 $$
 Used to denote the position of one data point.
 ### Implications
-From [[Decision boundary (Linear)]], we know that the decision boundary is notated as
+From [[Decision boundary (linear)]], we know that the decision boundary is notated as
 $$
 w_{1}x_{1}+w_{2}x_{2}+\dots+w_{n}x_{n}+b=0
 $$

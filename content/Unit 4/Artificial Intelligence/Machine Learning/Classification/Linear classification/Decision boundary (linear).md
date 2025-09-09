@@ -1,6 +1,4 @@
-
-## What are they
-A decision boundary is an abstract boundary that separates input/feature fields into different sections, and thus what output should be given.
+An abstract boundary that separates input/feature fields into different sections, and thus what output should be given.
 
 In a 2D plane with 2 features, a decision boundary will take the form of a 1d line.
 

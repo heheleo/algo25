@@ -1,12 +1,9 @@
-## Margin Boundaries
+The distance between the decision boundary and the closest data points from either class.
 
-#### What are they
-
-The margin is the distance between the decision boundary and the closest data points from either class.
 ![[Pasted image 20250828194513.png]]
 
 
-The **Margin boundary** is a line parallel to the [[Decision boundary (Linear)]], but offset.
+The **Margin boundary** is a line parallel to the [[Decision boundary (linear)]], but offset.
 The distance between the positive and negative margin boundaries is the margin.
 A **Maximum decision boundary** is made so that it passes through the support vectors, such that margin is maximised, but the area between two margin boundaries do not contain any data points.
 

@@ -25,7 +25,7 @@ Example: model predicts house prices based solely on square footage. Model fails
 
 
 
-In general, more [[Training with Data (Types of machine learning)|training]] results in less bias but variance can increase.
+In general, more [[Training with Data|training]] results in less bias but variance can increase.
 
 [^1]: https://aws.amazon.com/what-is/overfitting/
 

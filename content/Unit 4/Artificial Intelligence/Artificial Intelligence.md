@@ -12,7 +12,7 @@ AIs 'create'/train their own algorithm given input and (most of the time) expect
 
 ## Machine learning
 A sub-type of AI that "learns" from data to make predictions and classifications, given new information.
-See [[Training with Data (Types of machine learning)|types of machine learning.]]
+See [[Training with Data|types of machine learning.]]
 ## Research
 It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment, and use learning and intelligence to take actions that maximise their chances of achieving defined goal. 
 ## Examples
