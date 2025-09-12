@@ -3,6 +3,8 @@ A [[Algorithm types#Greedy algorithm|greedy algorithm]] that finds a [[Minimum s
 Prim's Algorithm operates by creating an empty tree, adding the edge with the lowest weight that connects a new vertex to the tree, then repeating the process until the tree connects all vertices of the original graph.
 ## Visualisation
 ![[PrimAlgDemo.gif]]
+## Time complexity
+$O(|V|^{2})$ using adjacency matrix
 ## Implementation
 ```python
 import networkx as nx
@@ -24,16 +26,4 @@ def prim(graph: nx.Graph) -> nx.Graph:
 
 
 
-## Proof by Induction
 
-let Tn represent prim is corerct for n nodes
-
-
-T1, one node, true
-assume Tn
-Tn+1
-additional node is processed correctly for all cases
-
-
-
-![[Pasted image 20250501171200.png]]
