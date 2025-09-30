@@ -14,6 +14,8 @@ The **margin** is defined as a distance from the hyperplane to the nearest data 
 
 The main goal of the algorithm is to **maximise** the margin between the two classes. The larger the margin, the better the model performs on new and unseen data. [^1]
 ![[Pasted image 20250822122600.png|220]]
+
+Does not get stuck in local minima.
 ## Creating a second feature from one-dimensional data
 To distinguish data that is not linearly separable, we need to use a [[Kernel trick|kernel trick]] (introducing a new [[Feature|feature]])
 
