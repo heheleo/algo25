@@ -22,20 +22,22 @@ Take the unvisited node with least $F(n)$ as next node.
 > [!note]- Python 3 (NetworkX)
 >  ```python
 >  import networkx as nx
->
 > def best_first_search(graph: nx.Graph, heuristic, start, end):
-     unvisited = list(graph.nodes)
-     node_distances = {node: float('inf') for node in graph.nodes}
-     node_distances[start] = 0
-     while len(unvisited) > 0:
-         node = min(unvisited, key=lambda x: node_distances[x] + heuristic(graph, x, end))
-         unvisited.remove(node)
-         if node == end:
-             return find_shortest_path(graph, node_distances, start, end)
-         for neighbour in graph.neighbors(node):
-             if neighbour in unvisited:
-                 node_distances[neighbour] = min(node_distances[neighbour],  node_distances[node] + graph.edges[node, neighbour]['weight'])
-    return []  
->  ```
+>	unvisited = list(graph.nodes)
+>	node_distances = {node: float('inf') for node in graph.nodes}
+>	node_distances[start] = 0
+>	while len(unvisited) > 0:
+>		node = min(unvisited, key=lambda x: node_distances[x] + heuristic(graph, x, end))
+>		unvisited.remove(node)
+>		if node == end:
+>			return find_shortest_path(graph, node_distances, start, end)
+>		for neighbour in graph.neighbors(node):
+>			if neighbour in unvisited:
+>				node_distances[neighbour] = min(node_distances[neighbour],  node_distances[node] + graph.edges[node, neighbour]['weight'])
+>	return []
+>
+>
+>```
 
 [^1]: https://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html
+
