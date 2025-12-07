@@ -22,8 +22,8 @@ Take the unvisited node with least $F(n)$ as next node.
 > [!note]- Python 3 (NetworkX)
 >  ```python
 >  import networkx as nx
->  
- def best_first_search(graph: nx.Graph, heuristic, start, end):
+>
+> def best_first_search(graph: nx.Graph, heuristic, start, end):
      unvisited = list(graph.nodes)
      node_distances = {node: float('inf') for node in graph.nodes}
      node_distances[start] = 0
@@ -35,7 +35,7 @@ Take the unvisited node with least $F(n)$ as next node.
          for neighbour in graph.neighbors(node):
              if neighbour in unvisited:
                  node_distances[neighbour] = min(node_distances[neighbour],  node_distances[node] + graph.edges[node, neighbour]['weight'])
-    return []
-    ```
+    return []  
+>  ```
 
 [^1]: https://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html
